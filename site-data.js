@@ -366,8 +366,15 @@ window.RED_ANT_SITE_DATA = {
       "year": "1985",
       "decade": "1980s",
       "artist": "Big Audio Dynamite",
-      "title": "The Bottom Line (Remix)",
-      "type": "CD"
+      "title": "The Bottom Line ",
+      "type": "CD",
+      "memory": {
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=4V5Zoe84BjE",
+        "image": "https://cdn-images.dzcdn.net/images/cover/dd687d2be9840c465ce5bd0377b5345b/1900x1900-000000-80-0-0.jpg",
+        "text": "When you reach the bottom line, pick yourself up of the floor.",
+        "textFr": "Quand tu touches le fond, relève-toi."
+      }
     },
     {
       "year": "1985",
@@ -375,7 +382,11 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Paul Hardcastle",
       "title": "19",
       "type": "DISC",
-      "meta": "45t"
+      "meta": "45t",
+      "memory": {
+        "text": "Sampling tune.",
+        "textFr": "Sample."
+      }
     },
     {
       "year": "1985",
