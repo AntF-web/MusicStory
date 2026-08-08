@@ -479,7 +479,13 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "Public Enemy",
       "title": "Bring the Noise",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=qk9ouSPnVdI",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8rHOJh-torySr8q7IlRxYSrEFkigf8iFHuxDeSmhflsvM8mcfPO3tPY&s=10",
+        "text": "Fight the power, stay free !",
+        "textFr": "Fight the power, stay free !"
+      }
     },
     {
       "year": "1989",
