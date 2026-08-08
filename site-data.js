@@ -41,7 +41,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=pUPmG-pT9C0",
         "text": "Calypso roots.",
-        "textFr": "Les racines du Calypso."
+        "textFr": "Les racines du Calypso.",
+        "image": "https://i1.sndcdn.com/artworks-000046109348-dym7ay-t500x500.jpg"
       }
     },
     {
