@@ -178,7 +178,12 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1970s",
       "artist": "Gil Scott-Heron",
       "title": "The Revolution Will Not Be Televised",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=GhcyQ9fETuk",
+        "text": "The Revolution will not be televised...the Revolution will be live",
+        "textFr": "La révolution ne sera pas télévisée... la révolution sera en direct."
+      }
     },
     {
       "year": "1977",
