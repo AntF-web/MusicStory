@@ -79,10 +79,12 @@ window.RED_ANT_SITE_DATA = {
       "title": "Sympathy for the Devil",
       "type": "DISC",
       "memory": {
-        "video": "https://www.youtube.com/watch?v=Jwtyn-L-2gQ"
+        "video": "https://www.youtube.com/watch?v=Jwtyn-L-2gQ",
+        "text": "Please allow me to introduce myself...Rock'n'Roll Circus",
+        "textFr": "Please allow me to introduce myself...Rock'n'Roll Circus"
       },
-      "note": "Please allow me to introduce myself...Rock'n'Roll Circus",
-      "noteFr": "Please allow me to introduce myself...Rock'n'Roll Circus"
+      "note": "",
+      "noteFr": ""
     },
     {
       "year": "1968",
