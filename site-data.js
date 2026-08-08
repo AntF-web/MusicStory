@@ -11,7 +11,8 @@ window.RED_ANT_SITE_DATA = {
         "text": "That's part of my personality. I'm a reefer man.",
         "video": "https://www.youtube.com/watch?v=gPkPyVYp6ik",
         "period": "Teen years/80's",
-        "place": "School/Street"
+        "place": "School/Street",
+        "image": "https://github.com/AntF-web/MusicStory/blob/main/images/cab-calloway-reefer-man-poster-john-malone.jpg?raw=true"
       }
     },
     {
@@ -611,9 +612,9 @@ window.RED_ANT_SITE_DATA = {
       "number": "01",
       "era": "1932—1969",
       "title": "Roots & Signals",
-      "titleFr": "Racines & Signaux",
+      "titleFr": "Racines & Sons",
       "description": "Old cinema, Jamaican independence, ska, soul and the first sounds that form the deep background of the archive.",
-      "descriptionFr": "Vieux cinéma, indépendance jamaïcaine, ska, soul et premiers sons qui forment l’arrière-plan profond de l’archive.",
+      "descriptionFr": "Vieux cinéma, indépendance jamaïcaine, ska, soul et premiers sons qui forment mon background musical.",
       "startYear": 1900,
       "endYear": 1969
     },
