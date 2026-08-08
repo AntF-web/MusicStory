@@ -8,7 +8,7 @@ window.RED_ANT_SITE_DATA = {
       "title": "Reefer Man",
       "type": "CD",
       "memory": {
-        "text": "That's part of my personality. I'm a reefer man.",
+        "text": "I'm a reefer man.",
         "video": "https://www.youtube.com/watch?v=gPkPyVYp6ik",
         "period": "Teen years/80's",
         "place": "School/Street",
