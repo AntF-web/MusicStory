@@ -93,7 +93,9 @@ window.RED_ANT_SITE_DATA = {
       "title": "Dance to the Music",
       "type": "DISC",
       "memory": {
-        "video": "https://www.youtube.com/watch?v=N_LwJCxR7F4"
+        "video": "https://www.youtube.com/watch?v=N_LwJCxR7F4",
+        "text": "\"Dance to the Music\" is a 1968 hit single by the influential soul/funk/rock band Sly and the Family Stone for the Epic/CBS Records label. It was the first single by the band to reach the Billboard Pop Singles Top 10, peaking at #8 and the first to popularize the band's sound, which would be emulated throughout the black music industry and dubbed \"psychedelic soul\". It was later ranked #223 on Rolling Stone's list of the 500 Greatest Songs of All Time.",
+        "textFr": "« Dance to the Music » est un single à succès sorti en 1968 par le groupe influent de soul, funk et rock Sly and the Family Stone, sous le label Epic/CBS Records. Ce fut le premier titre du groupe à se hisser dans le top 10 du classement Billboard Pop Singles — atteignant la huitième place — et le premier à populariser la sonorité du groupe ; ce style allait être imité dans toute l'industrie de la musique noire et qualifié de « soul psychédélique ». Le morceau a par la suite été classé 223e sur la liste des « 500 plus grandes chansons de tous les temps » établie par le magazine *Rolling Stone*."
       }
     },
     {
