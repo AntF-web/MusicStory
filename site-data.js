@@ -91,7 +91,10 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1960s",
       "artist": "Sly & the Family Stone",
       "title": "Dance to the Music",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=N_LwJCxR7F4"
+      }
     },
     {
       "year": "1969",
