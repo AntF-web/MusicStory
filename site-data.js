@@ -20,7 +20,14 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1960s",
       "artist": "Jamaica Independence",
       "title": "Independence footage",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=BzAZ7v1z-8o&t=3s",
+        "image": "https://github.com/AntF-web/MusicStory/blob/main/images/empire-windrush-packed-with-west-indian-immigrants-on-arrival-at-the-port-of-tilbury-on-the-river-thames-on-22-june-1948-copyright-contraband-collection-alamy-images-766x510.jpeg?raw=true",
+        "text": "The HMT Empire Windrush is the historic ship that famously arrived at Tilbury Docks near London on June 22, 1948, carrying 1,027 passengers and two stowaways. Boarding primarily in Kingston, Jamaica, the passengers answered the British government's call to help rebuild post-war Britain, making this voyage the enduring symbol of modern multicultural Britain and the origin of the term \"Windrush Generation\"."
+      },
+      "note": "Jamaican & UK are the roots of a new world in music.",
+      "noteFr": "Le lien entre la Jamaïque et le Royaume-Uni ont changé la musique pour toujours."
     },
     {
       "year": "1962",
