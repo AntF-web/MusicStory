@@ -35,7 +35,10 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Lord Kitchener",
       "title": "Jamaica Woman",
       "type": "CD",
-      "meta": "Jamaican Mento / Calypso"
+      "meta": "Jamaican Mento / Calypso",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=pUPmG-pT9C0"
+      }
     },
     {
       "year": "1964",
@@ -44,7 +47,12 @@ window.RED_ANT_SITE_DATA = {
       "title": "One Step Beyond",
       "type": "DISC",
       "meta": "45t",
-      "note": "L'original du célèbre morceau de Madness."
+      "note": "Madness's original song.",
+      "noteFr": "L'original du célèbre morceau de Madness.",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=5ukZmiFKzog",
+        "text": "First Ska wave is the best."
+      }
     },
     {
       "year": "1967",
