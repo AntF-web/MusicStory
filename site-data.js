@@ -64,14 +64,25 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1960s",
       "artist": "The Jungle Book / Louis Prima",
       "title": "I Wan'na Be Like You",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "text": "When I was a kid I wanted to be a monkey. ^^",
+        "textFr": "Quand j'étais enfant, je voulais être un singe. ^^",
+        "period": "Kid",
+        "video": "https://www.youtube.com/watch?v=ud5J7Ye332I"
+      }
     },
     {
       "year": "1968",
       "decade": "1960s",
       "artist": "The Rolling Stones",
       "title": "Sympathy for the Devil",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Jwtyn-L-2gQ"
+      },
+      "note": "Please allow me to introduce myself...Rock'n'Roll Circus",
+      "noteFr": "Please allow me to introduce myself...Rock'n'Roll Circus"
     },
     {
       "year": "1968",
