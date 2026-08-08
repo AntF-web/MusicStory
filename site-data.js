@@ -414,7 +414,8 @@ window.RED_ANT_SITE_DATA = {
         "text": "White kids discovering Hip-Hop.",
         "textFr": "Des jeunes blancs qui découvrent le hip-hop.",
         "video": "https://www.youtube.com/watch?v=eBShN8qT4lk",
-        "image": "https://miro.medium.com/v2/resize:fit:2000/1*61FLBT9SA7l_jh4e8ftJGA.jpeg"
+        "image": "https://miro.medium.com/v2/resize:fit:2000/1*61FLBT9SA7l_jh4e8ftJGA.jpeg",
+        "period": "Teenager"
       }
     },
     {
@@ -441,7 +442,8 @@ window.RED_ANT_SITE_DATA = {
         "video": "https://www.youtube.com/watch?v=W6CJmJ5p3Ow",
         "text": "Samples bombing & bass. Aciiiid !",
         "textFr": "Déferlante de samples et basse. Aciiiid !",
-        "image": "https://m.media-amazon.com/images/I/511i9NGXFFL._UF894,1000_QL80_.jpg"
+        "image": "https://m.media-amazon.com/images/I/511i9NGXFFL._UF894,1000_QL80_.jpg",
+        "period": "Teenager"
       }
     },
     {
@@ -449,14 +451,28 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "S'Express",
       "title": "Theme from S'Express",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=IpeRShWMdYM",
+        "text": "Timeless Express.",
+        "textFr": "Timeless Express.",
+        "image": "https://markmoore.com/wp-content/uploads/2021/08/Theme_From_S-Express_7_single_cover.jpg",
+        "period": "Teenager"
+      }
     },
     {
       "year": "1988",
       "decade": "1980s",
       "artist": "Young MC",
       "title": "Know How",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=PSTSngBgzdI",
+        "text": "Stone Cold Rhymin'",
+        "textFr": "Rimes froides comme la pierre",
+        "image": "https://images.genius.com/682e2a5deefe1c5f330a874ad25e83f6.600x600x1.jpg"
+      }
     },
     {
       "year": "1988",
