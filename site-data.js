@@ -564,14 +564,28 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "De La Soul",
       "title": "3 Feet High and Rising",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "period": "Teenager",
+        "text": "3 is the Magic Number !",
+        "textFr": "3, c'est le chiffre magique !",
+        "video": "https://www.youtube.com/watch?v=pxkOWjZAPLs",
+        "image": "https://d1rgjmn2wmqeif.cloudfront.net/r/b/410054.jpg"
+      }
     },
     {
       "year": "1989",
       "decade": "1980s",
       "artist": "Digital Underground",
       "title": "Doowutchyalike",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=31A6RjOxE74",
+        "text": "I see guys & girls dancing !",
+        "textFr": "Je vois des gars et des filles danser !",
+        "period": "Teenager",
+        "image": "https://images.thebrag.com/cdn-cgi/image/fit=crop,width=1200,height=628/https://www.rollingstone.com/wp-content/uploads/2023/08/digital-underground-doowutchyalike.jpg?w=1000"
+      }
     },
     {
       "year": "1990",
