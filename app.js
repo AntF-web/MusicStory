@@ -152,6 +152,12 @@ function getMemory(item) {
   return item.memory || null;
 }
 
+function memoryTextForLanguage(memory) {
+  if (!memory) return '';
+  if (currentLanguage === 'fr') return memory.textFr || memory.text || '';
+  return memory.text || memory.textFr || '';
+}
+
 function hasMemory(item) {
   const memory = getMemory(item);
   return !!(memory && Object.values(memory).some(value => String(value || '').trim()));
@@ -174,7 +180,7 @@ function discogsUrl(item) {
   return `https://www.discogs.com/search/?q=${q}&type=all`;
 }
 
-function youtubeEmbedUrl(url) {
+function youtubeVideoId(url) {
   if (!url) return null;
   const patterns = [
     /youtu\.be\/([\w-]{6,})/i,
@@ -184,9 +190,52 @@ function youtubeEmbedUrl(url) {
   ];
   for (const pattern of patterns) {
     const match = String(url).match(pattern);
-    if (match) return `https://www.youtube-nocookie.com/embed/${match[1]}?rel=0`;
+    if (match) return match[1];
   }
   return null;
+}
+
+function youtubeEmbedUrl(url) {
+  const videoId = youtubeVideoId(url);
+  if (!videoId) return null;
+
+  const params = new URLSearchParams({ rel: '0', playsinline: '1' });
+  if (location.protocol === 'http:' || location.protocol === 'https:') {
+    params.set('origin', location.origin);
+  }
+  return `https://www.youtube.com/embed/${videoId}?${params.toString()}`;
+}
+
+function isDirectLocalFile() {
+  return location.protocol === 'file:';
+}
+
+function renderLocalVideoNotice(videoUrl) {
+  const notice = document.createElement('div');
+  notice.className = 'local-video-notice';
+
+  const eyebrow = document.createElement('span');
+  eyebrow.className = 'local-video-notice__eyebrow';
+  eyebrow.textContent = currentLanguage === 'fr' ? 'APERÇU LOCAL' : 'LOCAL PREVIEW';
+
+  const title = document.createElement('strong');
+  title.textContent = currentLanguage === 'fr'
+    ? 'La vidéo YouTube nécessite un serveur local'
+    : 'YouTube video needs a local server';
+
+  const copy = document.createElement('p');
+  copy.textContent = currentLanguage === 'fr'
+    ? 'Cette page est ouverte directement depuis votre disque (file://). Lancez START-LOCAL-SERVER.bat puis ouvrez http://localhost:8000 pour éviter l’erreur YouTube 153.'
+    : 'This page is opened directly from your disk (file://). Run START-LOCAL-SERVER.bat, then use http://localhost:8000 to avoid YouTube Error 153.';
+
+  const link = document.createElement('a');
+  link.href = videoUrl;
+  link.target = '_blank';
+  link.rel = 'noopener';
+  link.textContent = currentLanguage === 'fr' ? 'OUVRIR SUR YOUTUBE ↗' : 'OPEN ON YOUTUBE ↗';
+
+  notice.append(eyebrow, title, copy, link);
+  return notice;
 }
 
 function chapterSubtitle(decade) {
@@ -259,7 +308,7 @@ function renderDecadeNav() {
 
 function memoryPreview(memory) {
   if (!memory) return '';
-  const text = memory.text || memory.place || memory.period || '';
+  const text = memoryTextForLanguage(memory) || memory.place || memory.period || '';
   if (!text) return currentLanguage === 'fr' ? 'Un souvenir média personnel est attaché à ce moment.' : 'A personal media memory is attached to this moment.';
   return text.length > 165 ? `${text.slice(0, 162)}…` : text;
 }
@@ -392,7 +441,11 @@ function updateStory() {
   }
 
   storyEmbed.innerHTML = '';
-  if (embedUrl) {
+  if (embedUrl && isDirectLocalFile()) {
+    storyEmbed.appendChild(renderLocalVideoNotice(memory.video));
+    storyEmbed.hidden = false;
+    storyArt.hidden = false;
+  } else if (embedUrl) {
     const iframe = document.createElement('iframe');
     iframe.src = embedUrl;
     iframe.title = `${item.artist} — ${item.title}`;
@@ -409,7 +462,7 @@ function updateStory() {
 
   if (hasMemory(item)) {
     storyMemory.hidden = false;
-    storyMemoryText.textContent = memory.text || (currentLanguage === 'fr' ? 'Un souvenir média personnel est attaché à ce morceau.' : 'A personal media memory is attached to this track.');
+    storyMemoryText.textContent = memoryTextForLanguage(memory) || (currentLanguage === 'fr' ? 'Un souvenir média personnel est attaché à ce morceau.' : 'A personal media memory is attached to this track.');
     const details = [memory.place, memory.period].filter(Boolean).join(' · ');
     storyMemoryPlace.textContent = details;
   } else {

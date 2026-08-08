@@ -188,7 +188,7 @@ function filteredTrackIndices() {
   const term = trackSearch.value.trim().toLowerCase();
   return draft.music.map((item,index) => ({item,index})).filter(({item}) => {
     if (!term) return true;
-    return [item.year,item.artist,item.title,item.type,item.meta,item.note,item.noteFr]
+    return [item.year,item.artist,item.title,item.type,item.meta,item.note,item.noteFr,item.memory?.text,item.memory?.textFr,item.memory?.place,item.memory?.period]
       .filter(Boolean).join(' ').toLowerCase().includes(term);
   });
 }
@@ -223,7 +223,7 @@ function renderTrackForm() {
   trackHeading.textContent = item.artist || 'EDIT MOMENT';
   const values = {
     year:item.year, decade:item.decade, type:item.type, meta:item.meta || '', artist:item.artist, title:item.title,
-    note:item.note || '', noteFr:item.noteFr || '', memoryText:item.memory?.text || '', memoryPlace:item.memory?.place || '',
+    note:item.note || '', noteFr:item.noteFr || '', memoryText:item.memory?.text || '', memoryTextFr:item.memory?.textFr || '', memoryPlace:item.memory?.place || '',
     memoryPeriod:item.memory?.period || '', memoryVideo:item.memory?.video || '', memoryImage:item.memory?.image || ''
   };
   Object.entries(values).forEach(([name,value]) => {
@@ -250,10 +250,10 @@ trackForm.addEventListener('input', event => {
   if (!item || !event.target.name) return;
   const name = event.target.name;
   const value = event.target.value;
-  if (['memoryText','memoryPlace','memoryPeriod','memoryVideo','memoryImage'].includes(name)) {
+  if (['memoryText','memoryTextFr','memoryPlace','memoryPeriod','memoryVideo','memoryImage'].includes(name)) {
     item.memory ||= {};
-    const key = name.replace('memory','').toLowerCase();
-    item.memory[key] = value;
+    const keyMap = { memoryText:'text', memoryTextFr:'textFr', memoryPlace:'place', memoryPeriod:'period', memoryVideo:'video', memoryImage:'image' };
+    item.memory[keyMap[name]] = value;
     if (!Object.values(item.memory).some(Boolean)) delete item.memory;
     renderMediaPreview(item);
   } else {
