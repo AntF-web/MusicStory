@@ -348,6 +348,20 @@ function render() {
     entry.style.animationDelay = `${Math.min(index * 14, 280)}ms`;
 
     fragment.querySelector('.entry__year').textContent = item.year;
+
+    const visual = fragment.querySelector('.entry__visual');
+    const visualImage = fragment.querySelector('.entry__visual-image');
+    const imageUrl = item.image || memory?.image || '';
+    if (imageUrl) {
+      visual.classList.add('has-image');
+      visualImage.hidden = false;
+      visualImage.src = imageUrl;
+      visualImage.addEventListener('error', () => {
+        visualImage.hidden = true;
+        visual.classList.remove('has-image');
+      }, { once: true });
+    }
+
     fragment.querySelector('.entry__visual-year').textContent = item.year;
     fragment.querySelector('.entry__visual-type').textContent = chapter.number;
     fragment.querySelector('.entry__type').textContent = mediaLabel(item.type);
