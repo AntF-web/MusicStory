@@ -302,7 +302,8 @@ window.RED_ANT_SITE_DATA = {
         "image": "https://uk.rarevinyl.com/cdn/shop/files/futura-2000-the-escapades-of-futura-2000-uk-7-inch-vinyl-single-132039c_2048x2084.jpg?v=1781859189",
         "video": "https://www.youtube.com/watch?v=EnuDO1Yt9sE",
         "text": "The missing link between hip-hop, punk, and graffiti.",
-        "textFr": "Le chaînon manquant entre le hip hop, le punk et le graffiti."
+        "textFr": "Le chaînon manquant entre le hip hop, le punk et le graffiti.",
+        "period": "Teenager"
       }
     },
     {
@@ -323,14 +324,28 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "The Rock Steady Crew",
       "title": "(Hey You) The Rock Steady Crew",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=--7afsHgRww",
+        "text": "Hey You !",
+        "textFr": "Hey You !",
+        "image": "https://m.media-amazon.com/images/M/MV5BY2RkMmQ4NWMtZmVjNi00NzY2LTg3NGItM2QxZmIwMGU2MTQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "period": "Kid"
+      }
     },
     {
       "year": "1983",
       "decade": "1980s",
       "artist": "Freeez",
       "title": "I.O.U.",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=y7ab3PSbvvU",
+        "text": "BMX and legendary Arthur Baker at the production.",
+        "textFr": "Des BMX et le légendaire Arthur Baker à la production.",
+        "image": "https://i.scdn.co/image/ab67616d0000b273dcd534b99f2829d965fc0e6b",
+        "period": "Kid"
+      }
     },
     {
       "year": "1984",
@@ -338,7 +353,12 @@ window.RED_ANT_SITE_DATA = {
       "artist": "The Buggles",
       "title": "Video Killed the Radio Star",
       "type": "VIDEO",
-      "note": "La toute première vidéo au lancement de la chaîne musicale MTV."
+      "note": "La toute première vidéo au lancement de la chaîne musicale MTV.",
+      "memory": {
+        "period": "Kid",
+        "video": "https://www.youtube.com/watch?v=W8r-tXRLazs",
+        "image": "https://m.media-amazon.com/images/I/71QKpb0EJCL._UF894,1000_QL80_.jpg"
+      }
     },
     {
       "year": "1985",
