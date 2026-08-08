@@ -119,7 +119,9 @@ window.RED_ANT_SITE_DATA = {
       "type": "CD",
       "meta": "Trojan · Intro",
       "memory": {
-        "video": "https://www.youtube.com/watch?v=kMzDUX5CCUA"
+        "video": "https://www.youtube.com/watch?v=kMzDUX5CCUA",
+        "text": "Take the plane",
+        "textFr": "On prend l'avion"
       }
     },
     {
@@ -127,28 +129,49 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1970s",
       "artist": "Toots & the Maytals",
       "title": "Pressure Drop",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "text": "Toots and the Maytals, originally called simply The Maytals, are a Jamaican musical group and one of the best known ska and rock steady vocal groups. According to Sandra Brennan at Allmusic, \"The Maytals were key figures in reggae music. Formed in the early 1960s when ska was hot, the Maytals had a reputation for having strong, well-blended voices and a seldom-rivaled passion for their music. Frontman Hibbert's soulful style led him to be compared to Otis Redding\".",
+        "textFr": "Toots and the Maytals, groupe jamaïcain initialement connu sous le nom de The Maytals, figurent parmi les formations vocales de ska et de rocksteady les plus célèbres. Selon Sandra Brennan (Allmusic), « les Maytals ont joué un rôle clé dans l'histoire du reggae. Formé au début des années 1960, à l'apogée du ska, le groupe était réputé pour la puissance et l'harmonie de ses voix ainsi que pour une passion pour la musique rarement égalée. Le style empreint de soul de leur leader, Hibbert, lui a valu d'être comparé à Otis Redding ».",
+        "video": "https://www.youtube.com/watch?v=uw66FA6OTqA"
+      }
     },
     {
       "year": "1972",
       "decade": "1970s",
       "artist": "Curtis Mayfield",
       "title": "Superfly",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=jLUYtTegbjg",
+        "text": "'Super Fly' is a 1972 blaxploitation crime drama film directed by Gordon Parks, Jr., starring Ron O'Neal as Youngblood Priest, an African American cocaine dealer who is trying to quit the underworld drug business.\n\nThis film is probably best known for its soundtrack, written and produced by soul musician Curtis Mayfield. Super Fly is one of the few films ever to have been outgrossed by its soundtrack.\n\nIt was the second single released from the album, following \"Freddie's Dead (Theme From Superfly)\", and reached #8 on the Billboard Hot 100 and #5 on the Best Selling Soul Singles chart.  \nThe lyrics celebrate the craftiness and determination of the film's main character. The song plays over the film's closing credits.\n\nThe bassline and the rototom percussion break from the song's introduction (performed by Joseph \"Lucky\" Scott and \"Master\" Henry Gibson, respectively) have repeatedly been sampled in songs including Beastie Boys' \"Egg Man\", The Notorious B.I.G.'s \"Ready to Die Intro\", and Nelly's \"Tilt Ya Head Back\" featuring Christina Aguilera. Mayfield himself sampled the original song in \"Superfly 1990\", a duet he recorded with rapper Ice-T.",
+        "textFr": "« Super Fly » est un film policier de la mouvance *blaxploitation* sorti en 1972 et réalisé par Gordon Parks Jr. ; Ron O'Neal y incarne Youngblood Priest, un trafiquant de cocaïne afro-américain cherchant à quitter le milieu de la drogue.\n\nLe film est sans doute surtout connu pour sa bande originale, écrite et produite par le musicien soul Curtis Mayfield. *Super Fly* est l'un des rares films dont la bande originale a généré plus de recettes que le film lui-même.\n\nIl s'agissait du deuxième single extrait de l'album, après « Freddie's Dead (Theme From Superfly) » ; le titre a atteint la 8e place du Billboard Hot 100 et la 5e place du classement des meilleures ventes de singles soul. Les paroles célèbrent l'habileté et la détermination du personnage principal du film. La chanson accompagne le générique de fin.\n\nLa ligne de basse et la séquence de percussions au rototom présentes dans l'introduction du morceau (interprétées respectivement par Joseph « Lucky » Scott et « Master » Henry Gibson) ont été maintes fois samplées, notamment dans « Egg Man » des Beastie Boys, « Ready to Die Intro » de The Notorious B.I.G. et « Tilt Ya Head Back » de Nelly en duo avec Christina Aguilera. Mayfield a lui-même samplé le morceau original pour « Superfly 1990 », un duo enregistré avec le rappeur Ice-T."
+      }
     },
     {
       "year": "1973",
       "decade": "1970s",
       "artist": "Lalo Schifrin",
       "title": "Enter the Dragon",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=msLxAALkK_w",
+        "text": "Enter the Dragon.\n\nBruce Lee's final completed film appearance before his death.\n\nArgentinian musician Lalo Schifrin composed the film's musical score. While Schifrin was widely known at the time for his jazz scores, he also incorporated funk and traditional film score elements into the film's soundtrack. He composed the score by sampling sounds from China, Korea, and Japan. The soundtrack has sold over 500,000 copies, earning a gold record.",
+        "textFr": "Opération Dragon.\n\nLa dernière apparition de Bruce Lee dans un film avant sa mort.\n\nLe musicien argentin Lalo Schifrin a composé la musique du film. Bien que Schifrin fût alors surtout connu pour ses compositions jazz, il a également intégré des éléments de funk et de musique de film traditionnelle à la bande originale. Il a élaboré la partition en utilisant des échantillons sonores provenant de Chine, de Corée et du Japon. La bande originale s'est vendue à plus de 500 000 exemplaires, décrochant ainsi un disque d'or."
+      }
     },
     {
       "year": "1973",
       "decade": "1970s",
       "artist": "Ennio Morricone",
       "title": "My Name Is Nobody",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "textFr": "Mon film préféré quand j'étais gamin. Je pense que c'est le premier film que j'ai vu en couleur. ",
+        "text": "My favorite movie when I was a kid. I think it's the first movie I saw on a color TV.",
+        "period": "Kid",
+        "video": "https://www.youtube.com/watch?v=ApgTfDzo0n4"
+      }
     },
     {
       "year": "1974",
