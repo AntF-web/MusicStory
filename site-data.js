@@ -725,7 +725,7 @@ window.RED_ANT_SITE_DATA = {
       "startStory": "COMMENCER L’HISTOIRE ↓",
       "cinemaMode": "▶ MODE CINÉMA",
       "howToRead": "COMMENT LIRE CETTE HISTOIRE",
-      "manifesto": "Chaque morceau est une porte. Ouvre-le comme une mémoire en plein écran, avec les récits, lieux, images et liens vidéo publiés par Red Ant intégrés à l’archive.",
+      "manifesto": "Chaque morceau est une porte. Ouvre-la comme une mémoire en plein écran, avec les récits, lieux, images et liens vidéo publiés par Red Ant intégrés à l’archive.",
       "chaptersLabel": "CHAPITRES",
       "soundOfLife": "LE SON<br>D’UNE VIE",
       "storyButton": "▶ HISTOIRE",
