@@ -57,20 +57,22 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=5ukZmiFKzog",
         "text": "The history of ska music is widely categorized into three distinct \"waves\". Starting as a vibrant Jamaican dancehall style, it evolved into a politically charged British punk-fusion movement, and eventually exploded into a mainstream alternative rock and pop-punk hybrid in the United States.\n\nFirst Wave: Jamaican Origins (Late 1950s–1960s)\n\nRoots: Born in Jamaica as a blend of Caribbean mento and calypso with American jazz and rhythm and blues.Sound: Defined by an upbeat offbeat guitar rhythm (the skank), lively horns, and active walking basslines.\nCulture: Associated with Jamaican \"sound systems\" and the sharp-dressed \"rude boy\" subculture.\nKey Artists: The Skatalites, Prince Buster, Desmond Dekker, and early recordings by Bob Marley.\n\nSecond Wave: The 2 Tone Revival (Late 1970s–Early 1980s)\n\nRoots: Emerged in working-class neighborhoods in the United Kingdom.\nSound: Fused fast traditional Jamaican rhythms with the raw, aggressive energy and speed of punk rock.\nCulture: Named after 2 Tone Records, utilizing a black-and-white checkerboard motif to symbolize racial unity and integration.\nKey Artists: The Specials, Madness, The English Beat, and The Selecter.\n\nThird Wave: The American/Global Explosion (Late 1980s–1990s)\n\nRoots: Developed in the United States underground and punk scenes, later popularized globally.\nSound: Blended traditional Jamaican/2-Tone foundations with 1990s alternative rock, hardcore punk, and pop-punk.\nCulture: Peaked during the mid-to-late '90s \"Summer of Ska\", achieving major commercial radio and MTV success.\nKey Artists: The Toasters, Operation Ivy, The Mighty Mighty Bosstones, Reel Big Fish, and No Doubt.",
-        "textFr": "L'histoire du ska se divise généralement en trois « vagues » distinctes. Né en Jamaïque comme un style *dancehall* dynamique, il a évolué pour devenir un mouvement britannique de fusion punk politiquement engagé, avant d'exploser aux États-Unis sous la forme d'un hybride mêlant rock alternatif grand public et *pop-punk*.\n\nPremière vague : Les origines jamaïcaines (fin des années 1950 – années 1960)\n\nRacines : Né en Jamaïque de la fusion entre le mento et le calypso des Caraïbes et le jazz ainsi que le *rhythm and blues* américains. Son : Caractérisé par un rythme de guitare syncopé et enlevé (le *skank*), des cuivres dynamiques et des lignes de basse actives et mélodiques (*walking bass*).\nCulture : Associée aux « sound systems » jamaïcains et à la sous-culture des « rude boys », connus pour leur élégance vestimentaire.\nArtistes clés : The Skatalites, Prince Buster, Desmond Dekker et les premiers enregistrements de Bob Marley.\n\nDeuxième vague : Le renouveau « 2 Tone » (fin des années 1970 – début des années 1980)\n\nRacines : Apparue dans les quartiers populaires du Royaume-Uni.\nSon : Fusion des rythmes jamaïcains traditionnels rapides avec l'énergie brute, agressive et la vitesse du punk rock.\nCulture : Nommée d'après le label 2 Tone Records ; utilisation du motif en damier noir et blanc pour symboliser l'unité raciale et l'intégration.\nArtistes clés : The Specials, Madness, The English Beat et The Selecter.\n\nTroisième vague : L'explosion américaine et mondiale (fin des années 1980 – années 1990)\n\nRacines : Développée au sein des scènes punk et *underground* américaines, puis popularisée à l'échelle mondiale.\nSon : Mélange des fondements jamaïcains traditionnels et du style « 2 Tone » avec le rock alternatif, le punk hardcore et le *pop-punk* des années 1990.\nCulture : A connu son apogée au milieu et à la fin des années 90 lors du « Summer of Ska », rencontrant un succès majeur sur les radios commerciales et MTV.\nArtistes clés : The Toasters, Operation Ivy, The Mighty Mighty Bosstones, Reel Big Fish et No Doubt."
+        "textFr": "L'histoire du ska se divise généralement en trois « vagues » distinctes. Né en Jamaïque comme un style *dancehall* dynamique, il a évolué pour devenir un mouvement britannique de fusion punk politiquement engagé, avant d'exploser aux États-Unis sous la forme d'un hybride mêlant rock alternatif grand public et *pop-punk*.\n\nPremière vague : Les origines jamaïcaines (fin des années 1950 – années 1960)\n\nRacines : Né en Jamaïque de la fusion entre le mento et le calypso des Caraïbes et le jazz ainsi que le *rhythm and blues* américains. Son : Caractérisé par un rythme de guitare syncopé et enlevé (le *skank*), des cuivres dynamiques et des lignes de basse actives et mélodiques (*walking bass*).\nCulture : Associée aux « sound systems » jamaïcains et à la sous-culture des « rude boys », connus pour leur élégance vestimentaire.\nArtistes clés : The Skatalites, Prince Buster, Desmond Dekker et les premiers enregistrements de Bob Marley.\n\nDeuxième vague : Le renouveau « 2 Tone » (fin des années 1970 – début des années 1980)\n\nRacines : Apparue dans les quartiers populaires du Royaume-Uni.\nSon : Fusion des rythmes jamaïcains traditionnels rapides avec l'énergie brute, agressive et la vitesse du punk rock.\nCulture : Nommée d'après le label 2 Tone Records ; utilisation du motif en damier noir et blanc pour symboliser l'unité raciale et l'intégration.\nArtistes clés : The Specials, Madness, The English Beat et The Selecter.\n\nTroisième vague : L'explosion américaine et mondiale (fin des années 1980 – années 1990)\n\nRacines : Développée au sein des scènes punk et *underground* américaines, puis popularisée à l'échelle mondiale.\nSon : Mélange des fondements jamaïcains traditionnels et du style « 2 Tone » avec le rock alternatif, le punk hardcore et le *pop-punk* des années 1990.\nCulture : A connu son apogée au milieu et à la fin des années 90 lors du « Summer of Ska », rencontrant un succès majeur sur les radios commerciales et MTV.\nArtistes clés : The Toasters, Operation Ivy, The Mighty Mighty Bosstones, Reel Big Fish et No Doubt.",
+        "image": "https://www.rollingstone.com/wp-content/uploads/2018/06/prince-buster-dead-233f31b5-66fa-4122-9f06-c7f146f4612a.jpg?w=1581&h=1054&crop=1"
       }
     },
     {
       "year": "1967",
       "decade": "1960s",
       "artist": "The Jungle Book / Louis Prima",
-      "title": "I Wan'na Be Like You",
+      "title": "I Wanna Be Like You",
       "type": "VIDEO",
       "memory": {
         "text": "When I was a kid I wanted to be a monkey. ^^",
         "textFr": "Quand j'étais enfant, je voulais être un singe. ^^",
         "period": "Kid",
-        "video": "https://www.youtube.com/watch?v=ud5J7Ye332I"
+        "video": "https://www.youtube.com/watch?v=ud5J7Ye332I",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/8a/KingLouie.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
       }
     },
     {
@@ -82,7 +84,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=Jwtyn-L-2gQ",
         "text": "Please allow me to introduce myself...Rock'n'Roll Circus",
-        "textFr": "Please allow me to introduce myself...Rock'n'Roll Circus"
+        "textFr": "Please allow me to introduce myself...Rock'n'Roll Circus",
+        "image": "https://i.scdn.co/image/ab67616d0000b2736d112f87668a68cda55cf02d"
       },
       "note": "",
       "noteFr": ""
@@ -96,7 +99,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=N_LwJCxR7F4",
         "text": "\"Dance to the Music\" is a 1968 hit single by the influential soul/funk/rock band Sly and the Family Stone for the Epic/CBS Records label. It was the first single by the band to reach the Billboard Pop Singles Top 10, peaking at #8 and the first to popularize the band's sound, which would be emulated throughout the black music industry and dubbed \"psychedelic soul\". It was later ranked #223 on Rolling Stone's list of the 500 Greatest Songs of All Time.",
-        "textFr": "« Dance to the Music » est un single à succès sorti en 1968 par le groupe influent de soul, funk et rock Sly and the Family Stone, sous le label Epic/CBS Records. Ce fut le premier titre du groupe à se hisser dans le top 10 du classement Billboard Pop Singles — atteignant la huitième place — et le premier à populariser la sonorité du groupe ; ce style allait être imité dans toute l'industrie de la musique noire et qualifié de « soul psychédélique ». Le morceau a par la suite été classé 223e sur la liste des « 500 plus grandes chansons de tous les temps » établie par le magazine *Rolling Stone*."
+        "textFr": "« Dance to the Music » est un single à succès sorti en 1968 par le groupe influent de soul, funk et rock Sly and the Family Stone, sous le label Epic/CBS Records. Ce fut le premier titre du groupe à se hisser dans le top 10 du classement Billboard Pop Singles — atteignant la huitième place — et le premier à populariser la sonorité du groupe ; ce style allait être imité dans toute l'industrie de la musique noire et qualifié de « soul psychédélique ». Le morceau a par la suite été classé 223e sur la liste des « 500 plus grandes chansons de tous les temps » établie par le magazine *Rolling Stone*.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/54/Slyfamstone-dance.jpg"
       }
     },
     {
@@ -109,7 +113,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=B-6K9BpskPI",
         "text": "King Stitt was a pioneering Jamaican deejay and one of the original voices of ska and early reggae. Rising from Sir Coxsone's Downbeat Sound System in the late 1950s, he was crowned “King of the Deejays” in 1963 and became known as “The Ugly One,” turning his physical condition into a bold artistic identity.",
-        "textFr": "King Stitt était un deejay jamaïcain pionnier et l'une des voix emblématiques du ska et des débuts du reggae. Révélé à la fin des années 1950 au sein du sound system Downbeat de Sir Coxsone, il fut sacré « King of the Deejays » en 1963 et devint célèbre sous le surnom de « The Ugly One », transformant sa particularité physique en une identité artistique audacieuse."
+        "textFr": "King Stitt était un deejay jamaïcain pionnier et l'une des voix emblématiques du ska et des débuts du reggae. Révélé à la fin des années 1950 au sein du sound system Downbeat de Sir Coxsone, il fut sacré « King of the Deejays » en 1963 et devint célèbre sous le surnom de « The Ugly One », transformant sa particularité physique en une identité artistique audacieuse.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF2WWsYh6ydaGXuYrYL_JceZGifmQ8-y-jNdQ8LLTpmOKRCjtZAL3YIWA-&s=10"
       }
     },
     {
@@ -122,7 +127,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=kMzDUX5CCUA",
         "text": "Take the plane",
-        "textFr": "On prend l'avion"
+        "textFr": "On prend l'avion",
+        "image": "https://i.ytimg.com/vi/0dyu3YVOvgo/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDOglRBLSzCYcx7ntTolzVLBLD0oA"
       }
     },
     {
@@ -134,7 +140,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "text": "Toots and the Maytals, originally called simply The Maytals, are a Jamaican musical group and one of the best known ska and rock steady vocal groups. According to Sandra Brennan at Allmusic, \"The Maytals were key figures in reggae music. Formed in the early 1960s when ska was hot, the Maytals had a reputation for having strong, well-blended voices and a seldom-rivaled passion for their music. Frontman Hibbert's soulful style led him to be compared to Otis Redding\".",
         "textFr": "Toots and the Maytals, groupe jamaïcain initialement connu sous le nom de The Maytals, figurent parmi les formations vocales de ska et de rocksteady les plus célèbres. Selon Sandra Brennan (Allmusic), « les Maytals ont joué un rôle clé dans l'histoire du reggae. Formé au début des années 1960, à l'apogée du ska, le groupe était réputé pour la puissance et l'harmonie de ses voix ainsi que pour une passion pour la musique rarement égalée. Le style empreint de soul de leur leader, Hibbert, lui a valu d'être comparé à Otis Redding ».",
-        "video": "https://www.youtube.com/watch?v=uw66FA6OTqA"
+        "video": "https://www.youtube.com/watch?v=uw66FA6OTqA",
+        "image": "https://i.scdn.co/image/ab67616d0000b273db393a8185b8a6a63a2e13c7"
       }
     },
     {
@@ -146,7 +153,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=jLUYtTegbjg",
         "text": "'Super Fly' is a 1972 blaxploitation crime drama film directed by Gordon Parks, Jr., starring Ron O'Neal as Youngblood Priest, an African American cocaine dealer who is trying to quit the underworld drug business.\n\nThis film is probably best known for its soundtrack, written and produced by soul musician Curtis Mayfield. Super Fly is one of the few films ever to have been outgrossed by its soundtrack.\n\nIt was the second single released from the album, following \"Freddie's Dead (Theme From Superfly)\", and reached #8 on the Billboard Hot 100 and #5 on the Best Selling Soul Singles chart.  \nThe lyrics celebrate the craftiness and determination of the film's main character. The song plays over the film's closing credits.\n\nThe bassline and the rototom percussion break from the song's introduction (performed by Joseph \"Lucky\" Scott and \"Master\" Henry Gibson, respectively) have repeatedly been sampled in songs including Beastie Boys' \"Egg Man\", The Notorious B.I.G.'s \"Ready to Die Intro\", and Nelly's \"Tilt Ya Head Back\" featuring Christina Aguilera. Mayfield himself sampled the original song in \"Superfly 1990\", a duet he recorded with rapper Ice-T.",
-        "textFr": "« Super Fly » est un film policier de la mouvance *blaxploitation* sorti en 1972 et réalisé par Gordon Parks Jr. ; Ron O'Neal y incarne Youngblood Priest, un trafiquant de cocaïne afro-américain cherchant à quitter le milieu de la drogue.\n\nLe film est sans doute surtout connu pour sa bande originale, écrite et produite par le musicien soul Curtis Mayfield. *Super Fly* est l'un des rares films dont la bande originale a généré plus de recettes que le film lui-même.\n\nIl s'agissait du deuxième single extrait de l'album, après « Freddie's Dead (Theme From Superfly) » ; le titre a atteint la 8e place du Billboard Hot 100 et la 5e place du classement des meilleures ventes de singles soul. Les paroles célèbrent l'habileté et la détermination du personnage principal du film. La chanson accompagne le générique de fin.\n\nLa ligne de basse et la séquence de percussions au rototom présentes dans l'introduction du morceau (interprétées respectivement par Joseph « Lucky » Scott et « Master » Henry Gibson) ont été maintes fois samplées, notamment dans « Egg Man » des Beastie Boys, « Ready to Die Intro » de The Notorious B.I.G. et « Tilt Ya Head Back » de Nelly en duo avec Christina Aguilera. Mayfield a lui-même samplé le morceau original pour « Superfly 1990 », un duo enregistré avec le rappeur Ice-T."
+        "textFr": "« Super Fly » est un film policier de la mouvance *blaxploitation* sorti en 1972 et réalisé par Gordon Parks Jr. ; Ron O'Neal y incarne Youngblood Priest, un trafiquant de cocaïne afro-américain cherchant à quitter le milieu de la drogue.\n\nLe film est sans doute surtout connu pour sa bande originale, écrite et produite par le musicien soul Curtis Mayfield. *Super Fly* est l'un des rares films dont la bande originale a généré plus de recettes que le film lui-même.\n\nIl s'agissait du deuxième single extrait de l'album, après « Freddie's Dead (Theme From Superfly) » ; le titre a atteint la 8e place du Billboard Hot 100 et la 5e place du classement des meilleures ventes de singles soul. Les paroles célèbrent l'habileté et la détermination du personnage principal du film. La chanson accompagne le générique de fin.\n\nLa ligne de basse et la séquence de percussions au rototom présentes dans l'introduction du morceau (interprétées respectivement par Joseph « Lucky » Scott et « Master » Henry Gibson) ont été maintes fois samplées, notamment dans « Egg Man » des Beastie Boys, « Ready to Die Intro » de The Notorious B.I.G. et « Tilt Ya Head Back » de Nelly en duo avec Christina Aguilera. Mayfield a lui-même samplé le morceau original pour « Superfly 1990 », un duo enregistré avec le rappeur Ice-T.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/26/CurtisMayfieldSuperfly.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
       }
     },
     {
@@ -158,7 +166,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=msLxAALkK_w",
         "text": "Enter the Dragon.\n\nBruce Lee's final completed film appearance before his death.\n\nArgentinian musician Lalo Schifrin composed the film's musical score. While Schifrin was widely known at the time for his jazz scores, he also incorporated funk and traditional film score elements into the film's soundtrack. He composed the score by sampling sounds from China, Korea, and Japan. The soundtrack has sold over 500,000 copies, earning a gold record.",
-        "textFr": "Opération Dragon.\n\nLa dernière apparition de Bruce Lee dans un film avant sa mort.\n\nLe musicien argentin Lalo Schifrin a composé la musique du film. Bien que Schifrin fût alors surtout connu pour ses compositions jazz, il a également intégré des éléments de funk et de musique de film traditionnelle à la bande originale. Il a élaboré la partition en utilisant des échantillons sonores provenant de Chine, de Corée et du Japon. La bande originale s'est vendue à plus de 500 000 exemplaires, décrochant ainsi un disque d'or."
+        "textFr": "Opération Dragon.\n\nLa dernière apparition de Bruce Lee dans un film avant sa mort.\n\nLe musicien argentin Lalo Schifrin a composé la musique du film. Bien que Schifrin fût alors surtout connu pour ses compositions jazz, il a également intégré des éléments de funk et de musique de film traditionnelle à la bande originale. Il a élaboré la partition en utilisant des échantillons sonores provenant de Chine, de Corée et du Japon. La bande originale s'est vendue à plus de 500 000 exemplaires, décrochant ainsi un disque d'or.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/8c/Enter_the_Dragon_%28soundtrack%29.jpg"
       }
     },
     {
@@ -168,10 +177,11 @@ window.RED_ANT_SITE_DATA = {
       "title": "My Name Is Nobody",
       "type": "VIDEO",
       "memory": {
-        "textFr": "Mon film préféré quand j'étais gamin. Je pense que c'est le premier film que j'ai vu en couleur. ",
-        "text": "My favorite movie when I was a kid. I think it's the first movie I saw on a color TV.",
+        "textFr": "Mon film préféré quand j'étais gamin. Je pense que c'est le premier film que j'ai vu en couleur. Musique: Ennio Morricone.",
+        "text": "My favorite movie when I was a kid. I think it's the first movie I saw on a color TV. Music: Ennio Morricone.",
         "period": "Kid",
-        "video": "https://www.youtube.com/watch?v=ApgTfDzo0n4"
+        "video": "https://www.youtube.com/watch?v=ApgTfDzo0n4",
+        "image": "https://www.dearvinyl.com/cdn/shop/products/enniomorricone-mynameisnobody_400x400.jpg?v=1600256561"
       }
     },
     {
@@ -183,7 +193,8 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=GhcyQ9fETuk",
         "text": "The Revolution will not be televised...the Revolution will be live",
-        "textFr": "La révolution ne sera pas télévisée... la révolution sera en direct."
+        "textFr": "La révolution ne sera pas télévisée... la révolution sera en direct.",
+        "image": "https://m.media-amazon.com/images/I/61EArJpZNyL.jpg"
       }
     },
     {
