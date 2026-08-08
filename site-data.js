@@ -117,7 +117,10 @@ window.RED_ANT_SITE_DATA = {
       "artist": "The G.G. All Stars",
       "title": "Ganja Plane",
       "type": "CD",
-      "meta": "Trojan · Intro"
+      "meta": "Trojan · Intro",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=kMzDUX5CCUA"
+      }
     },
     {
       "year": "1970",
