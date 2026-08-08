@@ -59,9 +59,9 @@ button { cursor: pointer; }
 .panel { display: none; }
 .panel.is-active { display: block; }
 
-.split { min-height: calc(100vh - 134px); display: grid; grid-template-columns: minmax(280px,360px) 1fr; }
-.rail { border-right: 2px solid var(--ink); background: var(--paper2); min-height: calc(100vh - 134px); }
-.rail__tools { position: sticky; top: 134px; z-index: 5; padding: 14px; display: grid; gap: 8px; background: var(--paper2); border-bottom: 2px solid var(--ink); }
+.split { height: calc(100vh - 138px); min-height: 0; display: grid; grid-template-columns: minmax(280px,360px) 1fr; overflow: hidden; }
+.rail { border-right: 2px solid var(--ink); background: var(--paper2); min-height: 0; height: 100%; overflow-y: auto; }
+.rail__tools { position: sticky; top: 0; z-index: 5; padding: 14px; display: grid; gap: 8px; background: var(--paper2); border-bottom: 2px solid var(--ink); }
 .rail__tools input { width: 100%; padding: 11px; border: 2px solid var(--ink); background: var(--paper); outline: 0; }
 .item-list { padding-bottom: 70px; }
 .track-item { width: 100%; display: grid; grid-template-columns: 58px 1fr 30px; align-items: start; gap: 10px; text-align: left; padding: 13px 14px; border: 0; border-bottom: 1px solid rgba(10,9,8,.25); background: transparent; color: var(--ink); }
@@ -73,7 +73,7 @@ button { cursor: pointer; }
 .track-item__name span { display: block; margin-top: 3px; font-size: 10px; opacity: .66; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .track-item__format { font: 800 8px var(--mono); writing-mode: vertical-rl; opacity: .55; }
 
-.form-pane { padding: clamp(24px,4vw,56px); background: var(--paper); }
+.form-pane { height: 100%; overflow-y: auto; padding: clamp(24px,4vw,56px); background: var(--paper); }
 .empty-editor { min-height: 55vh; display: grid; place-content: center; text-align: center; }
 .empty-editor h2,.section-intro h2 { margin: 0; font: 900 clamp(48px,7vw,96px)/.82 var(--display); letter-spacing: -.065em; }
 .form-head { display: flex; justify-content: space-between; gap: 20px; border-bottom: 7px solid var(--ink); padding-bottom: 18px; margin-bottom: 28px; }
@@ -128,8 +128,9 @@ code { font-family: var(--mono); font-size: .9em; background: rgba(0,0,0,.08); p
 @media (max-width: 900px) {
   .topbar { position: relative; align-items: flex-start; }
   .tabs { top: 0; }
-  .split { grid-template-columns: 1fr; }
-  .rail { min-height: auto; border-right: 0; border-bottom: 2px solid var(--ink); max-height: 44vh; overflow: auto; }
+  .split { height: auto; min-height: calc(100vh - 134px); grid-template-columns: 1fr; overflow: visible; }
+  .rail { min-height: auto; height: auto; border-right: 0; border-bottom: 2px solid var(--ink); max-height: 44vh; overflow: auto; }
+  .form-pane { height: auto; overflow: visible; scroll-margin-top: 58px; }
   .rail__tools { top: 0; }
   .field-grid--4 { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .translation-row { grid-template-columns: 1fr; }

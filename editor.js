@@ -193,6 +193,11 @@ function filteredTrackIndices() {
   });
 }
 
+function revealTrackEditorOnSmallScreen() {
+  if (!window.matchMedia('(max-width: 900px)').matches) return;
+  setTimeout(() => document.querySelector('.form-pane')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 30);
+}
+
 function renderTrackList() {
   trackList.innerHTML = '';
   filteredTrackIndices().forEach(({item,index}) => {
@@ -204,7 +209,7 @@ function renderTrackList() {
     button.querySelector('strong').textContent = item.artist || 'Untitled artist';
     button.querySelector('.track-item__name span').textContent = item.title || 'Untitled moment';
     button.querySelector('.track-item__format').textContent = item.type || 'DISC';
-    button.addEventListener('click', () => { selectedTrack = index; renderTrackList(); renderTrackForm(); });
+    button.addEventListener('click', () => { selectedTrack = index; renderTrackList(); renderTrackForm(); revealTrackEditorOnSmallScreen(); });
     trackList.appendChild(button);
   });
 }
@@ -269,7 +274,7 @@ document.querySelector('#addTrack').addEventListener('click', () => {
   selectedTrack = draft.music.length - 1;
   trackSearch.value = '';
   scheduleSave();
-  renderTrackList(); renderTrackForm();
+  renderTrackList(); renderTrackForm(); revealTrackEditorOnSmallScreen();
   trackForm.elements.artist.focus(); trackForm.elements.artist.select();
 });
 
@@ -382,6 +387,9 @@ document.querySelector('#exportJson').addEventListener('click', () => download('
 
 document.querySelector('#previewButton').addEventListener('click', () => {
   localStorage.setItem(DRAFT_KEY, JSON.stringify(publicData()));
+  if (location.protocol === 'file:') {
+    alert('For YouTube video previews, run START-LOCAL-SERVER.bat and use http://localhost:8000/editor.html. Direct file:// previews cannot provide the HTTP Referer YouTube requires.');
+  }
   window.open('index.html', '_blank', 'noopener');
 });
 
