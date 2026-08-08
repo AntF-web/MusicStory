@@ -357,7 +357,9 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "period": "Kid",
         "video": "https://www.youtube.com/watch?v=W8r-tXRLazs",
-        "image": "https://m.media-amazon.com/images/I/71QKpb0EJCL._UF894,1000_QL80_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71QKpb0EJCL._UF894,1000_QL80_.jpg",
+        "text": "First music video on MTV.",
+        "textFr": "Premier clip vidéo diffusé sur MTV."
       }
     },
     {
