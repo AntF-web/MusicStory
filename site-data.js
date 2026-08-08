@@ -102,9 +102,14 @@ window.RED_ANT_SITE_DATA = {
       "year": "1969",
       "decade": "1960s",
       "artist": "King Stitt & Andy Capp",
-      "title": "Herbsman",
+      "title": "Herbsman Shuffle",
       "type": "CD",
-      "meta": "Trojan"
+      "meta": "Trojan",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=B-6K9BpskPI",
+        "text": "King Stitt was a pioneering Jamaican deejay and one of the original voices of ska and early reggae. Rising from Sir Coxsone's Downbeat Sound System in the late 1950s, he was crowned “King of the Deejays” in 1963 and became known as “The Ugly One,” turning his physical condition into a bold artistic identity.",
+        "textFr": "King Stitt était un deejay jamaïcain pionnier et l'une des voix emblématiques du ska et des débuts du reggae. Révélé à la fin des années 1950 au sein du sound system Downbeat de Sir Coxsone, il fut sacré « King of the Deejays » en 1963 et devint célèbre sous le surnom de « The Ugly One », transformant sa particularité physique en une identité artistique audacieuse."
+      }
     },
     {
       "year": "1970",
