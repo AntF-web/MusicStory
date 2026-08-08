@@ -385,7 +385,10 @@ window.RED_ANT_SITE_DATA = {
       "meta": "45t",
       "memory": {
         "text": "Sampling tune.",
-        "textFr": "Sample."
+        "textFr": "Sample.",
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=0sajngb0W6I",
+        "image": "https://m.media-amazon.com/images/I/61rrM4BkBrL._UF1000,1000_QL80_.jpg"
       }
     },
     {
@@ -393,7 +396,13 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "The Tufftones",
       "title": "Sensi For Sale",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=9hI9wrkaTFs",
+        "text": "Sleng Teng riddim & Sensi.",
+        "textFr": "Sleng Teng riddim & Sensi.",
+        "image": "https://i.discogs.com/mhX-Q6bN01dRt2I-NCMUyv44bX-HbF4ZGy_QhAhsdZM/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5MDE4/MTItMTQwNTg1NTM3/Ni01ODQwLmpwZWc.jpeg"
+      }
     },
     {
       "year": "1986",
