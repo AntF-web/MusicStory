@@ -353,13 +353,13 @@ window.RED_ANT_SITE_DATA = {
       "artist": "The Buggles",
       "title": "Video Killed the Radio Star",
       "type": "VIDEO",
-      "note": "La toute première vidéo au lancement de la chaîne musicale MTV.",
+      "note": "",
       "memory": {
         "period": "Kid",
         "video": "https://www.youtube.com/watch?v=W8r-tXRLazs",
         "image": "https://m.media-amazon.com/images/I/71QKpb0EJCL._UF894,1000_QL80_.jpg",
         "text": "First music video on MTV.",
-        "textFr": "Premier clip vidéo diffusé sur MTV."
+        "textFr": "Premier clip vidéo diffusé au lancement de la chaîne MTV."
       }
     },
     {
