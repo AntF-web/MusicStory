@@ -202,14 +202,26 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1970s",
       "artist": "Dillinger",
       "title": "Cokane / Funky Punky",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=_stnBdVlBig",
+        "text": "Cocaine is a hell of a drug. Say no to it.",
+        "textFr": "La cocaïne, c'est une sacrée drogue. N'y touchez pas.",
+        "image": "https://friendlyrecords.co.uk/cdn/shop/files/IMG_9913_580x.jpg?v=1729832026"
+      }
     },
     {
       "year": "1979",
       "decade": "1970s",
       "artist": "The Specials",
       "title": "Gangsters",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "text": "Second Ska wave made in UK.",
+        "textFr": "Deuxième vague de ska venue du Royaume-Uni.",
+        "video": "https://www.youtube.com/watch?v=lgCZN1rU5co",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxHVpPl0DyEaT9x38KQVEDNQ6Z9UxLBA6ZisETW9d9ZMdCWRCyrnyyCzsV&s=10"
+      }
     },
     {
       "year": "1980",
