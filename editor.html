@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="theme-color" content="#0a0908" />
+  <title>Red Ant — Private Site Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="editor.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <main class="gate" id="gate">
+    <section class="gate__card">
+      <p class="eyebrow">RED ANT / PRIVATE TOOL</p>
+      <h1>EDIT<br><span>THE SITE</span></h1>
+
+      <div id="pinSetup" hidden>
+        <p class="gate__copy">First visit: create a PIN for this browser. This is a static GitHub Pages site, so the PIN is only a casual access barrier — not server-grade security.</p>
+        <form id="setupForm" class="gate__form">
+          <label>CREATE PIN <input id="setupPin" type="password" minlength="4" autocomplete="new-password" required /></label>
+          <label>REPEAT PIN <input id="setupPinConfirm" type="password" minlength="4" autocomplete="new-password" required /></label>
+          <button class="btn btn--acid" type="submit">CREATE PRIVATE EDITOR →</button>
+        </form>
+      </div>
+
+      <div id="pinUnlock" hidden>
+        <p class="gate__copy">Enter the PIN saved in this browser to open the editor.</p>
+        <form id="unlockForm" class="gate__form">
+          <label>PIN <input id="unlockPin" type="password" autocomplete="current-password" required autofocus /></label>
+          <button class="btn btn--acid" type="submit">UNLOCK →</button>
+          <p class="error" id="pinError" hidden>Wrong PIN.</p>
+        </form>
+      </div>
+
+      <div class="gate__links">
+        <a href="index.html">← PUBLIC SITE</a>
+        <button id="resetPin" type="button">RESET LOCAL PIN</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="editor" id="editor" hidden>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">RED ANT / PRIVATE EDIT SITE</p>
+        <h1>CONTENT CONTROL</h1>
+      </div>
+      <div class="topbar__status">
+        <span class="save-status" id="saveStatus">DRAFT READY</span>
+        <button class="btn btn--dark" id="previewButton" type="button">PREVIEW SITE ↗</button>
+        <button class="btn btn--acid" id="exportJsTop" type="button">EXPORT TO PUBLISH ↓</button>
+        <button class="btn btn--line" id="logoutButton" type="button">LOCK</button>
+      </div>
+    </header>
+
+    <nav class="tabs" aria-label="Editor sections">
+      <button class="tab is-active" data-tab="tracks" type="button">01 / TRACKS</button>
+      <button class="tab" data-tab="chapters" type="button">02 / CHAPTERS</button>
+      <button class="tab" data-tab="texts" type="button">03 / EN + FR TEXT</button>
+      <button class="tab" data-tab="publish" type="button">04 / PUBLISH</button>
+    </nav>
+
+    <section class="panel is-active" data-panel="tracks">
+      <div class="split">
+        <aside class="rail">
+          <div class="rail__tools">
+            <input id="trackSearch" type="search" placeholder="Search tracks…" />
+            <button class="btn btn--acid" id="addTrack" type="button">＋ NEW MOMENT</button>
+            <button class="btn btn--line" id="sortTracks" type="button">SORT BY YEAR</button>
+          </div>
+          <div class="item-list" id="trackList"></div>
+        </aside>
+
+        <div class="form-pane">
+          <div class="empty-editor" id="trackEmpty">
+            <p class="eyebrow">TRACK EDITOR</p>
+            <h2>SELECT A MOMENT</h2>
+            <p>Choose a track on the left or add a new one.</p>
+          </div>
+
+          <form id="trackForm" hidden>
+            <div class="form-head">
+              <div>
+                <p class="eyebrow" id="trackPosition">MOMENT</p>
+                <h2 id="trackHeading">EDIT MOMENT</h2>
+              </div>
+              <div class="form-head__actions">
+                <button class="mini" id="moveTrackUp" type="button">↑ UP</button>
+                <button class="mini" id="moveTrackDown" type="button">↓ DOWN</button>
+                <button class="mini mini--danger" id="deleteTrack" type="button">DELETE</button>
+              </div>
+            </div>
+
+            <div class="field-grid field-grid--4">
+              <label>YEAR <input name="year" type="text" required /></label>
+              <label>DECADE <input name="decade" type="text" placeholder="1990s" required /></label>
+              <label>FORMAT
+                <select name="type"><option>VIDEO</option><option>DISC</option><option>CD</option></select>
+              </label>
+              <label>EXTRA / META <input name="meta" type="text" placeholder="45t · remix · label…" /></label>
+            </div>
+
+            <div class="field-grid field-grid--2">
+              <label>ARTIST <input name="artist" type="text" required /></label>
+              <label>TITLE <input name="title" type="text" required /></label>
+            </div>
+
+            <div class="section-rule"><span>ARCHIVE NOTE / NOTE D’ARCHIVE</span></div>
+            <div class="field-grid field-grid--2">
+              <label>NOTE — EN / ORIGINAL <textarea name="note" rows="5" placeholder="Context, quote, personal annotation…"></textarea></label>
+              <label>NOTE — FR <textarea name="noteFr" rows="5" placeholder="Optional French version…"></textarea></label>
+            </div>
+
+            <div class="section-rule"><span>PUBLISHED MEMORY / AUDIOVISUAL LAYER</span></div>
+            <p class="hint">These fields become part of the public site after export. They are different from visitor-local memories.</p>
+            <label>MEMORY / STORY <textarea name="memoryText" rows="7" placeholder="What this song meant, where you were, what happened…"></textarea></label>
+            <div class="field-grid field-grid--2">
+              <label>PLACE / CONTEXT <input name="memoryPlace" type="text" /></label>
+              <label>AGE / PERIOD <input name="memoryPeriod" type="text" /></label>
+              <label>YOUTUBE URL <input name="memoryVideo" type="url" placeholder="https://www.youtube.com/watch?v=…" /></label>
+              <label>IMAGE URL <input name="memoryImage" type="url" placeholder="https://…" /></label>
+            </div>
+
+            <div class="preview-card" id="mediaPreview"></div>
+            <p class="autosave-note">Changes are automatically saved as a private draft in this browser.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" data-panel="chapters">
+      <div class="section-shell">
+        <div class="section-intro">
+          <div><p class="eyebrow">STORY STRUCTURE</p><h2>CHAPTERS</h2></div>
+          <button class="btn btn--acid" id="addChapter" type="button">＋ NEW CHAPTER</button>
+        </div>
+        <div class="chapter-editor" id="chapterEditor"></div>
+      </div>
+    </section>
+
+    <section class="panel" data-panel="texts">
+      <div class="section-shell">
+        <div class="section-intro">
+          <div>
+            <p class="eyebrow">BILINGUAL INTERFACE</p>
+            <h2>EN + FR TEXT</h2>
+            <p>Edit the site interface in both languages. Fields containing <code>&lt;br&gt;</code> or <code>&lt;span&gt;</code> are intentionally HTML-enabled.</p>
+          </div>
+        </div>
+        <div class="translation-editor" id="translationEditor"></div>
+      </div>
+    </section>
+
+    <section class="panel" data-panel="publish">
+      <div class="section-shell publish-grid">
+        <div class="publish-card publish-card--hero">
+          <p class="eyebrow">STEP 01</p>
+          <h2>EXPORT TO PUBLISH</h2>
+          <p>Your private draft already previews locally. To make changes public, export <strong>site-data.js</strong> and replace the old file in your GitHub Pages project.</p>
+          <button class="btn btn--acid btn--big" id="exportJs" type="button">DOWNLOAD SITE-DATA.JS ↓</button>
+        </div>
+
+        <div class="publish-card">
+          <p class="eyebrow">BACKUP</p>
+          <h3>JSON BACKUP</h3>
+          <p>Download a portable backup of all tracks, chapters, translations and published memories.</p>
+          <button class="btn btn--line" id="exportJson" type="button">DOWNLOAD JSON</button>
+        </div>
+
+        <div class="publish-card">
+          <p class="eyebrow">RESTORE</p>
+          <h3>IMPORT DATA</h3>
+          <p>Import a previous JSON backup or an exported <code>site-data.js</code> file.</p>
+          <label class="file-button">CHOOSE FILE <input id="importFile" type="file" accept=".json,.js,application/json,text/javascript" /></label>
+        </div>
+
+        <div class="publish-card">
+          <p class="eyebrow">DRAFT</p>
+          <h3>RESET TO PUBLISHED</h3>
+          <p>Discard the local editor draft and reload the content currently stored in this project’s <code>site-data.js</code>.</p>
+          <button class="btn btn--danger" id="resetDraft" type="button">RESET LOCAL DRAFT</button>
+        </div>
+
+        <div class="publish-card publish-card--wide">
+          <p class="eyebrow">HOW IT WORKS</p>
+          <ol>
+            <li>Edit everything here. Changes autosave locally.</li>
+            <li>Use <strong>Preview Site</strong> to see the draft in the real design.</li>
+            <li>When ready, download <strong>site-data.js</strong>.</li>
+            <li>Replace the existing <strong>site-data.js</strong> in your GitHub repository and commit/push.</li>
+          </ol>
+          <p class="security-note"><strong>Privacy note:</strong> GitHub Pages is static hosting. This editor page is not linked from the public site, is marked <code>noindex</code>, and can be PIN-locked in your browser, but anyone who knows the URL can still download the page source. For truly authenticated editing, a server/CMS would be required.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="site-data.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>

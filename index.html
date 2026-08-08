@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0a0908" />
+  <meta name="description" content="Music Story by Red Ant — a personal audiovisual autobiography told through records, CDs, videos and memories." />
+  <title>Music Story by Red Ant — Audiovisual Autobiography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="hero" id="top">
+    <div class="hero__language" aria-label="Language selector / Sélecteur de langue">
+      <span class="hero__language-label">LANGUAGE / LANGUE</span>
+      <div class="language-switch" role="group" aria-label="Language / Langue">
+        <button class="language-switch__button is-active" type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button class="language-switch__button" type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+    </div>
+
+    <div class="hero__backdrop" aria-hidden="true">
+      <div class="hero__disc hero__disc--one"></div>
+      <div class="hero__disc hero__disc--two"></div>
+      <div class="hero__counter">REC<br><span>●</span></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="kicker" data-i18n="kicker">RED ANT / PERSONAL ARCHIVE / VOL. 01</p>
+      <h1 data-i18n-html="heroTitle"><span>MUSIC</span><br>MADE<br>MY LIFE</h1>
+      <p class="hero__statement" data-i18n="heroStatement">Not a history of music. A life heard through music — records, pirate frequencies, television shocks, bass pressure, breakbeats and images that never left.</p>
+      <div class="hero__details">
+        <span id="trackCount">0 moments</span>
+        <span>1932? → 2004</span>
+        <span id="memoryCount">0 personal memories</span>
+      </div>
+      <div class="hero__actions">
+        <a class="button button--primary" href="#chapters" data-i18n="startStory">START THE STORY ↓</a>
+        <button class="button button--ghost" id="cinemaStart" type="button" data-i18n="cinemaMode">▶ CINEMA MODE</button>
+      </div>
+    </div>
+
+    <div class="hero__ticker" aria-hidden="true">
+      <div>MENTO · SKA · REGGAE · FUNK · HIP-HOP · ELECTRO · PUNK · HOUSE · RAVE · JUNGLE · DRUM & BASS · BREAKS · UK GARAGE · </div>
+    </div>
+  </header>
+
+  <section class="manifesto">
+    <div class="manifesto__number">001</div>
+    <div>
+      <p class="section-label" data-i18n="howToRead">HOW TO READ THIS</p>
+      <p class="manifesto__text" data-i18n="manifesto">Every track is a doorway. Open one to see it as a full-screen memory card, with Red Ant’s published stories, places, images and video links woven into the archive.</p>
+    </div>
+  </section>
+
+  <section class="chapters" id="chapters" aria-label="Story chapters">
+    <div class="section-head">
+      <p class="section-label" data-i18n="chaptersLabel">CHAPTERS</p>
+      <h2 data-i18n-html="soundOfLife">THE SOUND<br>OF A LIFE</h2>
+    </div>
+    <div class="chapter-grid" id="chapterGrid"></div>
+  </section>
+
+  <nav class="decade-nav" aria-label="Jump by decade">
+    <div class="decade-nav__brand" data-i18n="navBrand">RED ANT / ARCHIVE</div>
+    <div class="decade-nav__inner" id="decadeNav"></div>
+    <div class="decade-nav__actions">
+      <button class="decade-nav__cinema" id="storyMode" type="button" data-i18n="storyButton">▶ STORY</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="controls-wrap" aria-label="Timeline controls">
+      <div class="controls">
+        <label class="search-box">
+          <span data-i18n="searchArchive">SEARCH THE ARCHIVE</span>
+          <input id="searchInput" type="search" placeholder="artist, title, year, note…" data-i18n-placeholder="searchPlaceholder" autocomplete="off" />
+        </label>
+
+        <div class="filter-group" id="filterGroup" aria-label="Filter by media type">
+          <button class="filter is-active" data-filter="ALL" data-i18n="filterAll">ALL</button>
+          <button class="filter" data-filter="VIDEO">VIDEO</button>
+          <button class="filter" data-filter="DISC" data-i18n="filterVinyl">VINYL</button>
+          <button class="filter" data-filter="CD">CD</button>
+          <button class="filter" data-filter="MEMORY" data-i18n="filterMemories">MY MEMORIES</button>
+        </div>
+      </div>
+      <div class="archive-note">
+        <p data-i18n="datesNote">Dates follow Red Ant’s original personal chronology and are intentionally left as remembered.</p>
+        <p data-i18n="storageNote">Personal memories are published by Red Ant and are read-only on this public site.</p>
+      </div>
+    </section>
+
+    <section class="timeline" id="timeline" aria-live="polite"></section>
+
+    <section class="empty-state" id="emptyState" hidden>
+      <div class="empty-state__disc"></div>
+      <h2 data-i18n="noSignal">NO SIGNAL.</h2>
+      <p data-i18n="tryAnother">Try another search or filter.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <p class="section-label" data-i18n="endVol">END OF VOL. 01</p>
+      <h2 data-i18n-html="keepsPlaying">THE STORY<br>KEEPS PLAYING.</h2>
+    </div>
+    <div class="footer__right">
+      <a href="#top" data-i18n="backBeginning">↑ BACK TO BEGINNING</a>
+      <p data-i18n-html="footerArchive">MUSIC STORY BY RED ANT<br>PERSONAL AUDIOVISUAL ARCHIVE</p>
+    </div>
+  </footer>
+
+  <template id="entryTemplate">
+    <article class="entry">
+      <div class="entry__year"></div>
+      <div class="entry__marker"><span></span></div>
+      <div class="entry__card">
+        <button class="entry__open" type="button" aria-label="Open story" data-i18n-aria="openStoryAria">
+          <div class="entry__visual" aria-hidden="true">
+            <span class="entry__visual-year"></span>
+            <span class="entry__visual-type"></span>
+            <span class="entry__play">↗</span>
+          </div>
+          <div class="entry__body">
+            <div class="entry__topline">
+              <span class="entry__type"></span>
+              <span class="entry__index"></span>
+            </div>
+            <h3 class="entry__artist"></h3>
+            <h4 class="entry__title"></h4>
+            <p class="entry__meta"></p>
+            <p class="entry__note"></p>
+            <div class="entry__memory-preview" hidden>
+              <span data-entry-memory-label>MY MEMORY</span>
+              <p></p>
+            </div>
+            <span class="entry__cta">OPEN THIS MOMENT →</span>
+          </div>
+        </button>
+      </div>
+    </article>
+  </template>
+
+  <div class="story-stage" id="storyStage" hidden aria-hidden="true">
+    <button class="story-stage__close" id="storyClose" type="button" aria-label="Close story">×</button>
+    <div class="story-stage__progress"><span id="storyProgress"></span></div>
+
+    <div class="story-stage__media" id="storyMedia">
+      <div class="story-art" id="storyArt">
+        <span class="story-art__year" id="storyYear"></span>
+        <span class="story-art__format" id="storyFormat"></span>
+        <span class="story-art__ghost">RED ANT</span>
+      </div>
+      <div class="story-stage__embed" id="storyEmbed" hidden></div>
+    </div>
+
+    <div class="story-stage__copy">
+      <p class="story-stage__chapter" id="storyChapter"></p>
+      <h2 id="storyArtist"></h2>
+      <h3 id="storyTitle"></h3>
+      <p class="story-stage__meta" id="storyMeta"></p>
+      <p class="story-stage__source-note" id="storySourceNote"></p>
+
+      <div class="story-memory" id="storyMemory" hidden>
+        <p class="section-label" id="storyMemoryLabel">MY MEMORY</p>
+        <p id="storyMemoryText"></p>
+        <p class="story-memory__place" id="storyMemoryPlace"></p>
+      </div>
+
+      <div class="story-stage__actions">
+        <a class="button button--primary" id="storyWatch" target="_blank" rel="noopener">WATCH / LISTEN ↗</a>
+        <a class="button button--ghost button--dark" id="storyDiscogs" target="_blank" rel="noopener">DISCOGS ↗</a>
+      </div>
+    </div>
+
+    <div class="story-stage__controls">
+      <button id="storyPrev" type="button">← PREV</button>
+      <div class="story-stage__counter" id="storyCounter">01 / 01</div>
+      <button id="storyAuto" type="button">▶ AUTO</button>
+      <button id="storyNext" type="button">NEXT →</button>
+    </div>
+  </div>
+
+  <script src="site-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
