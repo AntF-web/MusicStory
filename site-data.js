@@ -536,14 +536,28 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "Double Trouble + Rebel MC",
       "title": "Just Keep Rockin'",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=AwLZZL7m148",
+        "text": "No matter what the people say...",
+        "textFr": "Peu importe ce que disent les gens...",
+        "image": "https://f4.bcbits.com/img/a2829554077_10.jpg"
+      }
     },
     {
       "year": "1989",
       "decade": "1980s",
       "artist": "Jungle Brothers",
       "title": "What U Waitin 4",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=26e7RSNH5Zw",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzc1NzhlY2MtZDY1Ni00Nzg4LWJiODgtNWZiM2EyMjJjOGRkXkEyXkFqcGc@._V1_.jpg",
+        "text": "Native Tongues",
+        "textFr": "Native Tongues"
+      }
     },
     {
       "year": "1989",
