@@ -302,7 +302,7 @@ window.RED_ANT_SITE_DATA = {
         "image": "https://uk.rarevinyl.com/cdn/shop/files/futura-2000-the-escapades-of-futura-2000-uk-7-inch-vinyl-single-132039c_2048x2084.jpg?v=1781859189",
         "video": "https://www.youtube.com/watch?v=EnuDO1Yt9sE",
         "text": "The missing link between hip-hop, punk, and graffiti.",
-        "textFr": "Le chainon manquant entre le hip hop, le punk et le graffiti."
+        "textFr": "Le chaînon manquant entre le hip hop, le punk et le graffiti."
       }
     },
     {
@@ -310,7 +310,13 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "Herbie Hancock",
       "title": "Rockit",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=GHhD4PD75zY",
+        "text": "Crazy music video and some scratch.",
+        "textFr": "Un clip déjanté et un peu de scratch.",
+        "image": "https://www.dearvinyl.com/cdn/shop/products/herbiehanccok-rockit_557x559.jpg?v=1607368607"
+      }
     },
     {
       "year": "1983",
