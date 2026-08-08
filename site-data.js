@@ -39,7 +39,8 @@ window.RED_ANT_SITE_DATA = {
       "type": "CD",
       "meta": "Jamaican Mento / Calypso",
       "memory": {
-        "video": "https://www.youtube.com/watch?v=pUPmG-pT9C0"
+        "video": "https://www.youtube.com/watch?v=pUPmG-pT9C0",
+        "text": "Calypso roots."
       }
     },
     {
