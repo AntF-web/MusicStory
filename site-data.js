@@ -228,14 +228,28 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "Musical Youth",
       "title": "Pass The Dutchie",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=EsyUa63NM1E",
+        "period": "Kid",
+        "text": "Kids in Reggae.",
+        "textFr": "Les enfants danse le Reggae.",
+        "image": "https://www.reggaeville.com/fileadmin/video-bilder/s0y7lCls0Pc.jpg"
+      }
     },
     {
       "year": "1980",
       "decade": "1980s",
       "artist": "The Clash",
       "title": "The Magnificent Seven",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=WD5N0rTsulQ",
+        "text": "Sandinista was the first record I bought with my own money. The Clash the only band that matters.",
+        "period": "Teenager",
+        "textFr": "*Sandinista* est le premier disque que j'ai acheté avec mon propre argent. The Clash, le seul groupe qui compte.",
+        "image": "https://i.scdn.co/image/ab67616d0000b27312ca1cd8c311b02dd1d2b144"
+      }
     },
     {
       "year": "1981",
@@ -243,7 +257,13 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Disco Reggae Band & Black Slate",
       "title": "Sticks Man",
       "type": "DISC",
-      "meta": "45t"
+      "meta": "45t",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=I1Gl90pFxJs",
+        "text": "Why you do that? Dub vibes.",
+        "textFr": "Pourquoi tu fais ça ? Ambiance Dub.",
+        "image": "https://www.gunstigkoopje.be/website/wp-content/uploads/2019/04/R-433167-1603005955-9093.jpg"
+      }
     },
     {
       "year": "1982",
@@ -251,14 +271,26 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Third World",
       "title": "Now That We Found Love",
       "type": "DISC",
-      "meta": "Breaks remix"
+      "meta": "Breaks remix",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=s1X4Lcs5Zgs",
+        "text": "Now that we found love...",
+        "textFr": "Maintenant que nous avons trouvé l'amour...",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Now_That_We%27ve_Found_Love.jpg/250px-Now_That_We%27ve_Found_Love.jpg"
+      }
     },
     {
       "year": "1982",
       "decade": "1980s",
       "artist": "Grandmaster Flash & The Furious Five",
       "title": "The Message",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=gYMkEMCHtJ4",
+        "text": "Don't push me...",
+        "textFr": "Don't push me...",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/61/Grandmaster_Flash_%26_the_Furious_Five-The_Message_%28album_cover%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      }
     },
     {
       "year": "1983",
@@ -317,6 +349,19 @@ window.RED_ANT_SITE_DATA = {
       "artist": "The Tufftones",
       "title": "Sensi For Sale",
       "type": "CD"
+    },
+    {
+      "year": "1986",
+      "decade": "1980s",
+      "artist": "Beastie Boys",
+      "title": "Fight for your Right",
+      "type": "DISC",
+      "memory": {
+        "text": "White kids discovering Hip-Hop.",
+        "textFr": "Des jeunes blancs qui découvrent le hip-hop.",
+        "video": "https://www.youtube.com/watch?v=eBShN8qT4lk",
+        "image": "https://miro.medium.com/v2/resize:fit:2000/1*61FLBT9SA7l_jh4e8ftJGA.jpeg"
+      }
     },
     {
       "year": "1987",
