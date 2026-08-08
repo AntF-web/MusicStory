@@ -58,6 +58,9 @@ function normalizeData(data) {
     item.title = String(item.title ?? '');
     item.type = ['VIDEO','DISC','CD'].includes(item.type) ? item.type : 'DISC';
     if (item.memory && typeof item.memory !== 'object') delete item.memory;
+    // Always give each track its own memory object. This prevents imported or
+    // legacy drafts from accidentally sharing the same memory reference.
+    if (item.memory) item.memory = { ...item.memory };
     item.__editorId = item.__editorId || `track-${Date.now()}-${index}-${Math.random().toString(36).slice(2,7)}`;
   });
   clean.chapters.forEach((chapter, index) => {
@@ -218,7 +221,16 @@ function renderTrackForm() {
   const item = draft.music[selectedTrack];
   trackEmpty.hidden = !!item;
   trackForm.hidden = !item;
-  if (!item) return;
+  if (!item) {
+    delete trackForm.dataset.trackId;
+    return;
+  }
+
+  // Bind the visible form to this exact track, not merely to the current
+  // array index. This keeps bilingual memories isolated when switching,
+  // filtering or reordering tracks.
+  trackForm.dataset.trackId = item.__editorId;
+  trackForm.reset();
   trackPosition.textContent = `MOMENT ${String(selectedTrack + 1).padStart(2,'0')} / ${String(draft.music.length).padStart(2,'0')}`;
   trackHeading.textContent = item.artist || 'EDIT MOMENT';
   const values = {
@@ -246,14 +258,17 @@ function renderMediaPreview(item) {
 }
 
 trackForm.addEventListener('input', event => {
-  const item = draft.music[selectedTrack];
+  const boundTrackId = trackForm.dataset.trackId;
+  const boundIndex = draft.music.findIndex(track => track.__editorId === boundTrackId);
+  const item = boundIndex >= 0 ? draft.music[boundIndex] : null;
   if (!item || !event.target.name) return;
   const name = event.target.name;
   const value = event.target.value;
   if (['memoryText','memoryTextFr','memoryPlace','memoryPeriod','memoryVideo','memoryImage'].includes(name)) {
-    item.memory ||= {};
     const keyMap = { memoryText:'text', memoryTextFr:'textFr', memoryPlace:'place', memoryPeriod:'period', memoryVideo:'video', memoryImage:'image' };
-    item.memory[keyMap[name]] = value;
+    // Replace rather than mutate the memory object. Besides being clearer,
+    // this guarantees that no two tracks can share a live memory reference.
+    item.memory = { ...(item.memory || {}), [keyMap[name]]: value };
     if (!Object.values(item.memory).some(Boolean)) delete item.memory;
     renderMediaPreview(item);
   } else {
