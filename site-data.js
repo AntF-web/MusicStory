@@ -484,7 +484,8 @@ window.RED_ANT_SITE_DATA = {
         "video": "https://www.youtube.com/watch?v=qk9ouSPnVdI",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ8rHOJh-torySr8q7IlRxYSrEFkigf8iFHuxDeSmhflsvM8mcfPO3tPY&s=10",
         "text": "Fight the power, stay free !",
-        "textFr": "Fight the power, stay free !"
+        "textFr": "Fight the power, stay free !",
+        "period": "Teenager"
       }
     },
     {
@@ -492,14 +493,28 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "Urban Dance Squad",
       "title": "Urban Dance Squad",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "text": "UDS, dutch band. The band I've seen live the most times.",
+        "textFr": "UDS. Le groupe que j'ai vu le plus de fois en concert.",
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=K4Dw6q-5iaA",
+        "image": "https://writteninmusic.com/wp-content/uploads/2013/05/R-200674-1194980696.jpeg.jpg"
+      }
     },
     {
       "year": "1989",
       "decade": "1980s",
       "artist": "Suicidal Tendencies",
       "title": "You Can't Bring Me Down",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=nxcJW6bs5os",
+        "text": "Lights, camera, revolution !",
+        "textFr": "Lights, camera, revolution !",
+        "period": "Teenager",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d1886d236549fdbf0309b5ab"
+      }
     },
     {
       "year": "1989",
@@ -507,7 +522,14 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Body Count",
       "title": "Cop Killer",
       "type": "CD",
-      "note": "This song came out originally on Body Count (1992), an album by the rap & heavy metal band fronted by Ice-T. The recorded version referenced Rodney King and became the focus of a major boycott and censorship controversy after the Los Angeles uprising. Ice-T described it as a first-person character fed up with police brutality. The song was later removed from the record, and Warner Brothers subsequently parted ways with the band and Ice-T. FUCK THE POLICE!!!!"
+      "note": "This song came out originally on Body Count (1992), an album by the rap & heavy metal band fronted by Ice-T. The recorded version referenced Rodney King and became the focus of a major boycott and censorship controversy after the Los Angeles uprising. Ice-T described it as a first-person character fed up with police brutality. The song was later removed from the record, and Warner Brothers subsequently parted ways with the band and Ice-T. FUCK THE POLICE!!!!",
+      "memory": {
+        "text": "\"This next record is dedicated to some personal friends of mine...the LAPD.\"\n\nThis song came out originally on Body Count (1992), an album by the rap & heavy metal band fronted by Ice-T. The recorded version referenced Rodney King and became the focus of a major boycott and censorship controversy after the Los Angeles uprising. Ice-T described it as a first-person character fed up with police brutality. The song was later removed from the record, and Warner Brothers subsequently parted ways with the band and Ice-T. \nFUCK THE POLICE!!!!",
+        "textFr": "\"Ce prochain morceau est dédié à des amis proches... le LAPD.\"\n\nCe morceau est initialement paru sur *Body Count* (1992), un album du groupe de rap et de heavy metal emmené par Ice-T. La version enregistrée faisait référence à Rodney King et a suscité une vive controverse, entraînant un boycott massif et des appels à la censure au lendemain des émeutes de Los Angeles. Ice-T a expliqué que le morceau était interprété du point de vue d'un personnage excédé par les violences policières. La chanson a par la suite été retirée de l'album, et Warner Brothers a fini par rompre sa collaboration avec le groupe et Ice-T. \nFUCK THE POLICE !!!!",
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=LH8gUhDd6WE",
+        "image": "https://m.media-amazon.com/images/I/81fUmK2jSML.jpg"
+      }
     },
     {
       "year": "1989",
