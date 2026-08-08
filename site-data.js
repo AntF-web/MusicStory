@@ -422,14 +422,27 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1980s",
       "artist": "Prince",
       "title": "Sign o' the Times",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Prince_Sign_single.jpg",
+        "text": "His majesty.",
+        "textFr": "Sa majesté.",
+        "period": "Teenager",
+        "video": "https://www.youtube.com/watch?v=8EdxM72EZ94"
+      }
     },
     {
       "year": "1988",
       "decade": "1980s",
       "artist": "Bomb the Bass",
       "title": "Beat Dis",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=W6CJmJ5p3Ow",
+        "text": "Samples bombing & bass. Aciiiid !",
+        "textFr": "Déferlante de samples et basse. Aciiiid !",
+        "image": "https://m.media-amazon.com/images/I/511i9NGXFFL._UF894,1000_QL80_.jpg"
+      }
     },
     {
       "year": "1988",
