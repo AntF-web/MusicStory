@@ -592,21 +592,37 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1990s",
       "artist": "Chad Jackson",
       "title": "Hear The Drummer (Get Wicked)",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=gkB_aiwjgzk",
+        "image": "https://www.cocobeat-records.com/html/upload/save_image/100328008.jpg"
+      }
     },
     {
       "year": "1990",
       "decade": "1990s",
       "artist": "WestBam",
       "title": "Alarm Clock",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=1PsD5O9ByG0",
+        "image": "https://i.discogs.com/t1ml77ddyPAY-htyBblW44ShU6heRDB9uJhi8GVPMK0/rs:fit/g:sm/q:90/h:559/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk0MzA1/LTExNzkwMDk0MzEu/anBlZw.jpeg",
+        "text": "Wake Up !!!",
+        "textFr": "On se réveille"
+      }
     },
     {
       "year": "1990",
       "decade": "1990s",
       "artist": "Primal Scream",
       "title": "Loaded",
-      "type": "CD"
+      "type": "CD",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Y3ixEzKA4k0",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734bd22ff5ca55d5fdab3345eb",
+        "text": "That Easy Rider sample",
+        "textFr": "Sample du film Easy Rider"
+      }
     },
     {
       "year": "1990",
@@ -614,21 +630,35 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Adamski",
       "title": "Killer",
       "type": "DISC",
-      "meta": "Breaks remix · DJ Monk"
+      "meta": "Breaks remix · DJ Monk",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=LtYujyhvIyQ",
+        "image": "https://i.guim.co.uk/img/static/sys-images/Music/Pix/pictures/2013/3/11/1363019756051/Adamski-and-Seal-010.jpg?width=465&dpr=1&s=none&crop=none"
+      }
     },
     {
       "year": "1990",
       "decade": "1990s",
       "artist": "The Stone Roses",
       "title": "Fools Gold",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=NSD11dnphg0",
+        "image": "https://i.scdn.co/image/ab67616d0000b273cf1f6466a493eb73d6d9d280",
+        "text": "I’m standing alone\nI’m watching you all\nI’m seeing you sinking\nI’m standing alone\nYou’re weighing the gold\nI’m watching you sinking\nFool’s gold",
+        "textFr": "I’m standing alone\nI’m watching you all\nI’m seeing you sinking\nI’m standing alone\nYou’re weighing the gold\nI’m watching you sinking\nFool’s gold"
+      }
     },
     {
       "year": "1990",
       "decade": "1990s",
       "artist": "Scientist",
       "title": "The Bee",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=iws7-7A1Uq8",
+        "image": "https://m.media-amazon.com/images/I/71vpMtNajSL._UF894,1000_QL80_.jpg"
+      }
     },
     {
       "year": "1991",
@@ -636,63 +666,101 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Underground Resistance",
       "title": "The Final Frontier",
       "type": "DISC",
-      "meta": "+ The Rings of Saturn · reverse quote"
+      "meta": "+ The Rings of Saturn · reverse quote",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Gp-LHMm5y2w",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYm3lk-pQcQWP__QkBpr4aoVLFpjjFjjxmG08cbfVGxw&s=10"
+      }
     },
     {
       "year": "1991",
       "decade": "1990s",
       "artist": "Ragga Twins",
       "title": "Hooligan 69",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=aSEX2noTObI",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqEc1I_G2QcrhUCSFDT1jbMJeym4kDxalcEyfwQTsmQ&s=10"
+      }
     },
     {
       "year": "1991",
       "decade": "1990s",
       "artist": "Nicolette",
       "title": "Waking Up",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=wgJH0TV0JF8",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJnM_U6ALc9NxpS3wSMYvgGcFpai13k3GGBMyKPyC3QA&s=10"
+      }
     },
     {
       "year": "1991",
       "decade": "1990s",
       "artist": "Lennie De Ice",
       "title": "We Are I.E.",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=JAtuQR-w-Jw",
+        "text": "This song is considered as the song which opened the way to Jungle Music",
+        "textFr": "Morceau ayant ouvert la voie à la musique Jungle",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3dmDT_hYcoZGEDlrCRMNrId1bcs4tXntmPW2nCTDd_A&s=10"
+      }
     },
     {
       "year": "1991",
       "decade": "1990s",
       "artist": "SL2",
       "title": "On a Ragga Tip",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=gXCN1DhHTZA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyPgj92BatseNmJo5ERzoLSNg6vKiAapQtwlvE6BgVw&s=10"
+      }
     },
     {
       "year": "1992",
       "decade": "1990s",
       "artist": "Dee Patten",
       "title": "Who's The Badman",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=29fqWCGj0Ww",
+        "image": "https://i.discogs.com/djYv0CklOmBtUJW3h-cnH_z2-rDRwmDMfcI1rSY4tfQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNzkz/OTI0LTE2NDI1NDM5/NDItODIwNS5qcGVn.jpeg"
+      }
     },
     {
       "year": "1992",
       "decade": "1990s",
       "artist": "Orca",
       "title": "4 A.M.",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=sP4o9veYykg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl-xJGik2CLB7basYr6opU6lzTJOYit2tPR6EsuROsow&s=10"
+      }
     },
     {
       "year": "1993",
       "decade": "1990s",
       "artist": "The Sabres of Paradise",
       "title": "Wilmot",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=APDvpTdXQYE",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxbCm1JenxCKqIHseT69YIaLBFSe_4SDBj37RoGpmx_A&s=10"
+      }
     },
     {
       "year": "1993",
       "decade": "1990s",
       "artist": "Underworld",
       "title": "Rez",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=F6Y7lcvubhU",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgFZejPyILYZwlPYXwWFILaajAt5nfPf2t-PVhKNnX1A&s=10"
+      }
     },
     {
       "year": "1994",
@@ -700,28 +768,44 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Beastie Boys",
       "title": "Sabotage",
       "type": "VIDEO",
-      "meta": "Video by Spike Jonze"
+      "meta": "Video by Spike Jonze",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=z5rRZdiu1UE",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Sabotage_single.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      }
     },
     {
       "year": "1994",
       "decade": "1990s",
       "artist": "Sandals",
       "title": "Feet (Wrong Side of Town Mix)",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=CGM9lcRz0kY",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR6RJd1UZhleSfNR-lysK9uqxVy7kRS4BOAO01ASSGFQ&s=10"
+      }
     },
     {
       "year": "1994",
       "decade": "1990s",
       "artist": "Leftfield",
       "title": "Release the Pressure",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=zBfs0mPiO3M",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYg21TAx-pyvbGoZCo_dNjWFnUjQg5KL039xpb514Zgw&s=10"
+      }
     },
     {
       "year": "1994",
       "decade": "1990s",
       "artist": "The Aloof",
       "title": "Society",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=5xtV9QsZZtY",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyv37IHBolqKQMASWoEwTgvzkP37J-8UEvcCHplid4Lg&s=10"
+      }
     },
     {
       "year": "1994",
@@ -729,28 +813,47 @@ window.RED_ANT_SITE_DATA = {
       "artist": "Artery",
       "title": "The Dollar",
       "type": "DISC",
-      "note": "“Fight for the land. Don’t fight for a street you ain’t got a brick of. What you fighting for? You ain’t fighting for nothing. Stop fighting each other. It’s not about colors. The color of America is green…”"
+      "note": "“Fight for the land. Don’t fight for a street you ain’t got a brick of. What you fighting for? You ain’t fighting for nothing. Stop fighting each other. It’s not about colors. The color of America is green…”",
+      "noteFr": "« Battez-vous pour la terre. Ne vous battez pas pour une rue dont vous ne possédez pas la moindre brique. Pour quoi vous battez-vous ? Vous ne vous battez pour rien. Arrêtez de vous battre entre vous. Ce n’est pas une question de couleurs. La couleur de l’Amérique, c’est le vert… »",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=uhhaUXKizro",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToU6M9RtldF0gZQLq7atxzQiYOY7BTVJimwGEVHwWVNg&s=10"
+      }
     },
     {
       "year": "1994",
       "decade": "1990s",
       "artist": "Kick Like A Mule",
       "title": "The Bouncer",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=wXZUW7O6pv0",
+        "text": "Not tonight you're not on the list",
+        "textFr": "Pas ce soir, t'es pas sur la liste",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UmIUzh5nIfu2ESPS9R-Y-1dOP5fLICWowIlU-FfPbQ&s"
+      }
     },
     {
       "year": "1994",
       "decade": "1990s",
       "artist": "4hero",
       "title": "Mr Kirk's Nightmare",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=THCj2AJuNVE",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdOqRjFFSz0NNbmNflhjbfC3jd9Ap9vrHs6GClaKSERA&s=10"
+      }
     },
     {
       "year": "1994",
       "decade": "1990s",
       "artist": "Shy FX feat. UK Apachi",
       "title": "Original Nuttah",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=3QMiCBJ7yRM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrOPsDoLdQlA5nsI0jUHQT8CuFd7D0j93AgOvvsZZ6FA&s=10"
+      }
     },
     {
       "year": "1996",
