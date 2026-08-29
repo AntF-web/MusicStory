@@ -1208,6 +1208,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2003",
+      "decade": "2000s",
+      "artist": "Adam Freeland",
+      "title": "We Want Your Soul",
+      "type": "DISC",
+      "memory": {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVq419NsiDuhED1UNJvdvMCLLL_BpBmCHTh0DYNB1NA&s=10",
+        "video": "https://www.youtube.com/watch?v=_WTBkj8gFfI"
+      }
+    },
+    {
       "year": "2004",
       "decade": "2000s",
       "artist": "Dead Prez",
