@@ -802,6 +802,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1993",
+      "decade": "1990s",
+      "artist": "D.H.S.",
+      "title": "House Of God",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=gGSI-HCFBSQ",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMI8bfITcHeSGaMGPmBP1hhb2tIQJf-3DIBUQNgjsp1g&s=10"
+      }
+    },
+    {
       "year": "1994",
       "decade": "1990s",
       "artist": "Beastie Boys",
