@@ -1156,6 +1156,19 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2001",
+      "decade": "2000s",
+      "artist": "N.E.R.D.",
+      "title": "Things Are Getting Better",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=KzPLPb8QuuM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlVR0EuWdiAiy6rTX-a31zrsN7Z3mQpKQ7LNvXw4NRuXzwd3i2fiblBaE&s=10",
+        "text": "Before Pharell sold out to the Establishment",
+        "textFr": "Avant que Pharell ne se vende à l'Establishment"
+      }
+    },
+    {
       "year": "2002",
       "decade": "2000s",
       "artist": "Fatboy Slim",
