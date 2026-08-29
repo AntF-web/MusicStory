@@ -1342,6 +1342,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2006",
+      "decade": "2000s",
+      "artist": "Gnarls Barkley",
+      "title": "Crazy",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=-N4jf6rtyuw",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEHxRPpl3VTOwP5_Mh9MahPG70bdKDeSaRlwclE51gbA&s=10"
+      }
+    },
+    {
       "year": "2008",
       "decade": "2000s",
       "artist": "Bassbin Twns",
