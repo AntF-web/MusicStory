@@ -1027,6 +1027,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1997",
+      "decade": "1990s",
+      "artist": "Double 99",
+      "title": "RIP Groove",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Sdkk4zSVojk",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsMgGj-k5xXjGHodolGHzi2ZYoT3AfsbPlITkQ5T97lQ&s=10"
+      }
+    },
+    {
       "year": "1998",
       "decade": "1990s",
       "artist": "Deejay Punk-Roc",
