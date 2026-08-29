@@ -508,7 +508,9 @@ window.RED_ANT_SITE_DATA = {
       "type": "DISC",
       "memory": {
         "video": "https://www.youtube.com/watch?v=fLoH7Ra2WxI",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo0CHjuRVOy9GFb8n0OYJnMWlNdll3AlX4gXkLHLRspg&s=10"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo0CHjuRVOy9GFb8n0OYJnMWlNdll3AlX4gXkLHLRspg&s=10",
+        "text": "Best live concert I seen i my life.",
+        "textFr": "Meilleur groupe en concert vu dans ma vie."
       }
     },
     {
