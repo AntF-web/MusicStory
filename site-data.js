@@ -1195,6 +1195,19 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2003",
+      "decade": "2000s",
+      "artist": "Red Star",
+      "title": "Stranger Fruit",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=PTSBDTknus4",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyR9vkT_lKvtfqaMTTUyRE4YPspqlZdbbTOrQ2iNYelg&s",
+        "text": "Strange fruit hanging from your racist tree",
+        "textFr": "Étrange fruit qui pend à votre arbre raciste "
+      }
+    },
+    {
       "year": "2004",
       "decade": "2000s",
       "artist": "Dead Prez",
