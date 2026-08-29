@@ -1086,6 +1086,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1999",
+      "decade": "1990s",
+      "artist": "Missy Elliott",
+      "title": "She's a Bitch",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=opkRF3UZSJw",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTXWaAtHHTphjdD3jFUqSZUe8X4pNOubAiDLB28M5-Jw&s=10"
+      }
+    },
+    {
       "year": "2000",
       "decade": "2000s",
       "artist": "Azzido Da Bass",
@@ -1317,6 +1328,30 @@ window.RED_ANT_SITE_DATA = {
         "textFr": "No war...Soirée DMZ à Londres, souvenir et les murs tremblaient sous les sub basses.",
         "place": "London",
         "video": "https://www.youtube.com/watch?v=G9H3i0T1iN4"
+      }
+    },
+    {
+      "year": "2008",
+      "decade": "2000s",
+      "artist": "Bassbin Twns",
+      "title": "Woppa",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=BAuJtpIiAuI",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfDtUPpGCetnledmE07hAHwo7gotMaa_gHk1PpSOusaQ&s=10"
+      }
+    },
+    {
+      "year": "2010",
+      "decade": "2010s",
+      "artist": "Far Too Loud",
+      "title": "Play It Loud",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=M-1udKAjhqo",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3hP4CaNyYzLhuJL3TAAEMCVCZX3ky2MFn8OJwa5rZQ&s=10",
+        "text": "New School Breaks anthem",
+        "textFr": "New School Breaks anthem"
       }
     }
   ],
