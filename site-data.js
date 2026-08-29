@@ -1331,6 +1331,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2007",
+      "decade": "2000s",
+      "artist": "Ganja Kru",
+      "title": "Super Sharp Shooter",
+      "type": "DISC",
+      "memory": {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAUSW-oKsTAVaIZUhJGuVxABnWTY2iPnl41eG7wVBTg&s=10",
+        "video": "https://www.youtube.com/watch?v=l2KZoWLot0g"
+      }
+    },
+    {
       "year": "2008",
       "decade": "2000s",
       "artist": "Bassbin Twns",
