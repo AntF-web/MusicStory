@@ -674,6 +674,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1990",
+      "decade": "1990s",
+      "artist": "Sheer Taft",
+      "title": "Cascades",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=JibjiP7kMF0",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZahAUffmglox9d_ufFVmK2bSHQw-FEpq95o7o-bHw5g&s=10"
+      }
+    },
+    {
       "year": "1991",
       "decade": "1990s",
       "artist": "Underground Resistance",
@@ -1272,6 +1283,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2002",
+      "decade": "2000s",
+      "artist": "Miss Dynamite",
+      "title": "Dy-Na-Mi-Tee",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=btGjFzQ5_-A",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQbhGn6AK8i26Zn-PoA9k8K5UBRBIIT9OAKuRKqVRH4g&s=10"
+      }
+    },
+    {
       "year": "2003",
       "decade": "2000s",
       "artist": "Aquasky vs. Masterblaster",
@@ -1306,6 +1328,17 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVq419NsiDuhED1UNJvdvMCLLL_BpBmCHTh0DYNB1NA&s=10",
         "video": "https://www.youtube.com/watch?v=_WTBkj8gFfI"
+      }
+    },
+    {
+      "year": "2003",
+      "decade": "2000s",
+      "artist": "Geeneus",
+      "title": "Congo",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=iaJoMQDNyv8",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFoiaGBN48bEbuuC5RNlvEmOxK08QKi6GzSsD6Kk-fuA&s"
       }
     },
     {
