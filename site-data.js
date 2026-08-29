@@ -1152,6 +1152,17 @@ window.RED_ANT_SITE_DATA = {
       "descriptionFr": "Vidéos déformées, big beat, breaks et hybrides des clubs britanniques referment ce premier volume — tout en pointant vers la suite.",
       "startYear": 1998,
       "endYear": 2100
+    },
+    {
+      "id": "chapter-7",
+      "number": "07",
+      "era": "2005—2010",
+      "title": "Dubstep Explosion",
+      "titleFr": "Explosion Dubstep",
+      "description": "From Croydon to the world",
+      "descriptionFr": "Croydon envahit le monde",
+      "startYear": 2005,
+      "endYear": 2010
     }
   ],
   "translations": {
