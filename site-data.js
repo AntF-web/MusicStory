@@ -920,6 +920,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1996",
+      "decade": "1990s",
+      "artist": "Natural Born Chillers",
+      "title": "Rock The Funky Beat",
+      "type": "DISC",
+      "memory": {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSChxUBadxe5taak_fRbwua3qMydltsiqQ35PdwxeBWIw&s",
+        "video": "https://www.youtube.com/watch?v=FTIgCfwE21M"
+      }
+    },
+    {
       "year": "1997",
       "decade": "1990s",
       "artist": "Shy FX",
