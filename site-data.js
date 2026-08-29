@@ -1187,6 +1187,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2000",
+      "decade": "2000s",
+      "artist": "Zed Bias ",
+      "title": "Neighbourhood",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=VZScIt7DvCo",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMTYKE0_ZiJDwCt-V8Rwn5KKvbNHI3Ll8eSRdm0Kzyww&s=10"
+      }
+    },
+    {
       "year": "2001",
       "decade": "2000s",
       "artist": "Jammin",
