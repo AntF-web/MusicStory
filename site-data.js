@@ -1119,7 +1119,9 @@ window.RED_ANT_SITE_DATA = {
       "noteFr": "Ce morceau aux origines du dubstep",
       "memory": {
         "video": "https://www.youtube.com/watch?v=fbiRPQVvlW8",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb6RwKqojNqD-Ga1RJpkKKl4odjpoHYnGFgz19kM5XBg&s=10"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb6RwKqojNqD-Ga1RJpkKKl4odjpoHYnGFgz19kM5XBg&s=10",
+        "text": "Big Apple Records basement kid",
+        "textFr": "Le gamin de la cave de Big Apple Records"
       }
     }
   ],
