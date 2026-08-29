@@ -588,6 +588,19 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1989",
+      "decade": "1980s",
+      "artist": "Happy Mondays",
+      "title": "Hallelujah",
+      "type": "DISC",
+      "memory": {
+        "text": "Madchester at its best. Those guys opened the rockers's minds to electronic dance music (finally!).",
+        "textFr": "Le meilleur de Madchester. Ces gars ont ouvert l'esprit des rockeurs à la musique de danse électronique (enfin!).",
+        "video": "https://www.youtube.com/watch?v=dAk6Euat-6A",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTMVYzJw5BKElh2OtAFUwG-4y2zth4_kUCv0jcXSGhEA&s=10"
+      }
+    },
+    {
       "year": "1990",
       "decade": "1990s",
       "artist": "Chad Jackson",
@@ -729,7 +742,7 @@ window.RED_ANT_SITE_DATA = {
         "place": "At the Villa",
         "period": "late teens/90's",
         "video": "https://www.youtube.com/watch?v=ZWmrfgj0MZI",
-        "textFr": "La première fois que j'ai entendu ce morceau, c'était dans un club house culte en Belgique ; ce n'était pas la house habituelle qu'on entendait dans ce genre d'endroits. L'ecstasy montait. L'histoire en marche.",
+        "textFr": "La première fois que j'ai entendu ce morceau, c'était dans un club house culte en Belgique ; ce n'était pas la house habituelle qu'on entendait dans ce genre d'endroits. L'ecstasy montait. L'histoire est en marche.",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn35Yq6_CGqIBlIPuxbv2srnxyAhAZiuFaxpoxzUczgQ&s=10"
       }
     },
