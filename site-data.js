@@ -1188,6 +1188,20 @@ window.RED_ANT_SITE_DATA = {
         "text": "Big Apple Records basement kid",
         "textFr": "Le gamin de la cave de Big Apple Records"
       }
+    },
+    {
+      "year": "2006",
+      "decade": "2000s",
+      "artist": "DMZ",
+      "title": "Anti War Dub",
+      "type": "DISC",
+      "memory": {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFHLZinj48hrQ6-hKZubf3UUbsyQTFlTMZ9APYjxjyfQ&s=10",
+        "text": "We don't wanna fight tonight...DMZ party in London...good memory, the walls were shaking.",
+        "textFr": "No war...Soirée DMZ à Londres, souvenir et les murs tremblaient sous les sub basses.",
+        "place": "London",
+        "video": "https://www.youtube.com/watch?v=G9H3i0T1iN4"
+      }
     }
   ],
   "chapters": [
