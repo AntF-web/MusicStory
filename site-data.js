@@ -501,6 +501,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1988",
+      "decade": "1980s",
+      "artist": "Fishbone",
+      "title": "Bonin' In The Boneyard",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=fLoH7Ra2WxI",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo0CHjuRVOy9GFb8n0OYJnMWlNdll3AlX4gXkLHLRspg&s=10"
+      }
+    },
+    {
       "year": "1989",
       "decade": "1980s",
       "artist": "Urban Dance Squad",
