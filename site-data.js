@@ -860,79 +860,134 @@ window.RED_ANT_SITE_DATA = {
       "decade": "1990s",
       "artist": "Tribe Of Issachar",
       "title": "Junglist (DJ Zinc Remix)",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=AQhN4OKENFI",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArCBK3tasqsxMb1EWzVd2g02vFwUjqDaeqxN3iSz9BQ&s=10"
+      }
     },
     {
       "year": "1996",
       "decade": "1990s",
-      "artist": "Unknown artist",
-      "title": "Unknown title",
+      "artist": "SWV",
+      "title": "Can We (Jungle Remix)",
       "type": "DISC",
       "meta": "Manga Beats",
-      "note": "Un sample piqué à TLC (production Timbaland)."
+      "note": "",
+      "noteFr": "Un sample piqué à SWV ",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=yoNRlXJ248s",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToswm45z34SSei6H-Cg852rdX-9DvSnFAUll7zK9FiuQ&s=10"
+      }
     },
     {
       "year": "1997",
       "decade": "1990s",
       "artist": "Shy FX",
       "title": "Funksta",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=-dQK-anyv44",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYsOC1d69SIVPxt97_Cu548tPO6iPrEHDGZeL-BqVmVg&s=10"
+      }
     },
     {
       "year": "1997",
       "decade": "1990s",
       "artist": "Jungle Brothers",
       "title": "Jungle Brother (Aphrodite Mix)",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=ULGeplfUEe4",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW6gr1zlokavAQhRWsWqtfS-rUTKSMmcKtwDgdHtiWAQ&s=10"
+      }
     },
     {
       "year": "1997",
       "decade": "1990s",
       "artist": "Roni Size / Reprazent",
       "title": "Brown Paper Bag",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=cwI0gbGEyuI",
+        "text": "Great music video",
+        "textFr": "Clipe vidéo excellent",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUdb2AwXd3yR5cnDEBlCSEuLac4bFip6qLpZd2NL9lxA&s=10"
+      }
     },
     {
       "year": "1997",
       "decade": "1990s",
       "artist": "Squarepusher",
       "title": "Come on My Selector",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=MWCSw_cNxKc",
+        "text": "Chris Cunningham piece of art\nhttps://en.wikipedia.org/wiki/Chris_Cunningham",
+        "textFr": "Chris Cunningham\nhttps://fr.wikipedia.org/wiki/Chris_Cunningham",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7pB1cwhaNeCjBuAxE48so6gBkxGkdZqFBqueytGDQ1g&s=10"
+      }
     },
     {
       "year": "1997",
       "decade": "1990s",
       "artist": "The Prodigy",
       "title": "Smack My Bitch Up",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "text": "Music video banned from MTV",
+        "textFr": "Clip video banni sur MTV",
+        "video": "https://vimeo.com/144850907",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSchV3dTU5RwffMXk38UJTEH3kDvNVSXiendEVWIjPk5Q&s=10"
+      }
     },
     {
       "year": "1998",
       "decade": "1990s",
       "artist": "Deejay Punk-Roc",
       "title": "I Hate Everybody",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=lgegAcKJN8g",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRC3HtR3UHk7Waj_2TaFczSKrH63bPubS8uu14FCS1kA&s=10"
+      }
     },
     {
       "year": "1999",
       "decade": "1990s",
       "artist": "Aphex Twin",
       "title": "Windowlicker",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "text": "Another great music video from Chris Cunningham ",
+        "textFr": "Autre clip video génial de Chris Cunningham ",
+        "video": "www.youtube.com/watch?v=5ZT3gTu4Sjw",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8GiKUUhgNy6aK7ihm03LVGy8h84xFypkorG7DK94ug&s=10"
+      }
     },
     {
       "year": "1999",
       "decade": "1990s",
       "artist": "Arthur Baker",
-      "title": "Breaker's Revenge",
-      "type": "DISC"
+      "title": "Breaker's Revenge (1999 Remix)",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=g8ne2qfEybI",
+        "text": "Remix of a 80's breaker classic",
+        "textFr": "Remix d'un classique de breaker",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8v3m_oc_plFnNCikxfMMuUVV-sxABOsjceCIZK4X5Tg&s=10"
+      }
     },
     {
       "year": "1999",
       "decade": "1990s",
       "artist": "Sly & Robbie",
       "title": "Superthruster",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=yr5f-ypgnH8",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3CleH4MPySY9jpEFKGfknFQW7TxevkMZ5f4CqnnIbcQ&s=10"
+      }
     },
     {
       "year": "2000",
