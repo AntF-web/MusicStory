@@ -1110,6 +1110,19 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2004",
+      "decade": "2000s",
+      "artist": "Lethal Bizzle",
+      "title": "Pow ",
+      "type": "DISC",
+      "memory": {
+        "text": "Grime classic",
+        "textFr": "Classique Grime",
+        "video": "https://www.youtube.com/watch?v=KSgoH1zrPD0",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrLpJMsf7hJ1AFEHkOb305sNmV4SC2npumqo0UPkwigg&s=10"
+      }
+    },
+    {
       "year": "2005",
       "decade": "2000s",
       "artist": "Skream",
