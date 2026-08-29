@@ -1053,6 +1053,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1999",
+      "decade": "1990s",
+      "artist": "DJ Rolando aka The Aztec Mystic",
+      "title": "Jaguar",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=LK2qFtDanxw",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTamPqoJnpWBNkMQvRArCfA-pMd_MIVkjiYg41ae4Lug&s=10"
+      }
+    },
+    {
       "year": "2000",
       "decade": "2000s",
       "artist": "Azzido Da Bass",
