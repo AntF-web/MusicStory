@@ -942,6 +942,19 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1997",
+      "decade": "1990s",
+      "artist": "Daft Punk",
+      "title": "Da Funk",
+      "type": "DISC",
+      "memory": {
+        "text": "That song blew up and we were all dancing. Spike Jones directed the music video.",
+        "textFr": "Quand ce morceau est sorti tout le monde dansait. Vidéo clip réalisé par Spike Jones.",
+        "video": "www.youtube.com/watch?v=qmsbP13xu6k",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTky5Ue_fsExYa0im-D6JuEdRtcwNmte-Vo6699_mHVAA&s=10"
+      }
+    },
+    {
       "year": "1998",
       "decade": "1990s",
       "artist": "Deejay Punk-Roc",
@@ -987,6 +1000,17 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=yr5f-ypgnH8",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3CleH4MPySY9jpEFKGfknFQW7TxevkMZ5f4CqnnIbcQ&s=10"
+      }
+    },
+    {
+      "year": "1999",
+      "decade": "1990s",
+      "artist": "Mr Oizo",
+      "title": "Flat Beat",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=qmsbP13xu6k",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--f9UAngPu-2jv_N5LvkSoq4RM2QmC1Hdl73V2eRQoA&s=10"
       }
     },
     {
