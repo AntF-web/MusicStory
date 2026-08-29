@@ -76,6 +76,18 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1967",
+      "decade": "1960s",
+      "artist": "Velvet Underground & Nico",
+      "title": "Femme Fatale",
+      "type": "DISC",
+      "memory": {
+        "period": "Teen years",
+        "video": "https://www.youtube.com/watch?v=ggHPtzVSEeE",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMbH9Rgs93zzHVuu0DZY7FlP2ORwiMpzTaVxGWrxmFrw&s=10"
+      }
+    },
+    {
       "year": "1968",
       "decade": "1960s",
       "artist": "The Rolling Stones",
@@ -682,6 +694,17 @@ window.RED_ANT_SITE_DATA = {
       "memory": {
         "video": "https://www.youtube.com/watch?v=JibjiP7kMF0",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZahAUffmglox9d_ufFVmK2bSHQw-FEpq95o7o-bHw5g&s=10"
+      }
+    },
+    {
+      "year": "1990",
+      "decade": "1990s",
+      "artist": "A Tribe Called Quest",
+      "title": "Can I Kick It?",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=O3pyCGnZzYA",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKDXzDAcx2gA4_l12KjQyn90SRrfmQ2Rn8wbZL2sOPw&s=10"
       }
     },
     {
