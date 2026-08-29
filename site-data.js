@@ -931,6 +931,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1996",
+      "decade": "1990s",
+      "artist": "Ganja Kru",
+      "title": "Super Sharp Shooter",
+      "type": "DISC",
+      "memory": {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAUSW-oKsTAVaIZUhJGuVxABnWTY2iPnl41eG7wVBTg&s=10",
+        "video": "https://www.youtube.com/watch?v=l2KZoWLot0g"
+      }
+    },
+    {
       "year": "1997",
       "decade": "1990s",
       "artist": "Shy FX",
@@ -1328,17 +1339,6 @@ window.RED_ANT_SITE_DATA = {
         "textFr": "No war...Soirée DMZ à Londres, souvenir et les murs tremblaient sous les sub basses.",
         "place": "London",
         "video": "https://www.youtube.com/watch?v=G9H3i0T1iN4"
-      }
-    },
-    {
-      "year": "2007",
-      "decade": "2000s",
-      "artist": "Ganja Kru",
-      "title": "Super Sharp Shooter",
-      "type": "DISC",
-      "memory": {
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAUSW-oKsTAVaIZUhJGuVxABnWTY2iPnl41eG7wVBTg&s=10",
-        "video": "https://www.youtube.com/watch?v=l2KZoWLot0g"
       }
     },
     {
