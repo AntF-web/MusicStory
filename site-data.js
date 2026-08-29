@@ -791,6 +791,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1993",
+      "decade": "1990s",
+      "artist": "Deep Blue",
+      "title": "The Helicopter Tune",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=-vbnxrccBQQ",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjysE2ZQQ0uq_Sn7VC9lJNyShySP9aXOZG3XUzSKpW5g&s=10"
+      }
+    },
+    {
       "year": "1994",
       "decade": "1990s",
       "artist": "Beastie Boys",
