@@ -994,56 +994,96 @@ window.RED_ANT_SITE_DATA = {
       "decade": "2000s",
       "artist": "Azzido Da Bass",
       "title": "Dooms Night (Stanton Warriors Remix)",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGdi61DJFmbt_erIMAdEbhtuhhzBCv9gqQcDyWGNSzw&s=10",
+        "video": "https://www.youtube.com/watch?v=078u2TOM4fA"
+      }
     },
     {
       "year": "2000",
       "decade": "2000s",
       "artist": "DJ Zinc",
       "title": "138 Trek",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "text": "I travelled to London especially to get a copy of that record (on xhite label at the time) Black Market Records London. ",
+        "textFr": "Je suis allé jusqu'à Londres (disquaire Black Market Records) exprès pour chercher ce disque alors introuvable sur le continent européen.",
+        "video": "https://www.youtube.com/watch?v=TDg0gPcO5Eg",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlUhVd6N0TAsxjUYX9d6Ro3DEJqVjgI_mv2vUGM1T_pg&s=10"
+      }
     },
     {
       "year": "2001",
       "decade": "2000s",
       "artist": "Jammin",
       "title": "Hello",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=KO-0sFvSAxo",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc_kWNr4BGUt4McCHB_mPzW8FDCxlqARM8AYlSrowoZg&s=10"
+      }
     },
     {
       "year": "2001",
       "decade": "2000s",
       "artist": "The Avalanches",
       "title": "Frontier Psychiatrist",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=qLrnkK2YEcE",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBSnKCLrJ-rX3oxF4D1LMY55TNpiyanJuuKnb7Hj8SoA&s=10"
+      }
     },
     {
       "year": "2002",
       "decade": "2000s",
       "artist": "Fatboy Slim",
       "title": "Ya Mama",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=JEq10L7u3SM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBD5Z5ZqyJ3YFRpLCD5Nvy9g0bxA8RXR9Bj5ttGmD0Eg&s=10"
+      }
     },
     {
       "year": "2002",
       "decade": "2000s",
       "artist": "Deekline",
       "title": "Sexy Cinderella",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=2UejN519YQQ",
+        "text": "Another white label Jackson 5 on steroids",
+        "textFr": "white label, les Jackson 5 sous stéroïdes",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY6sUZjt7QqC-nnN8cFP_QOWJMHpnHDXNqV4CVy7efVQ&s=10"
+      }
     },
     {
       "year": "2003",
       "decade": "2000s",
       "artist": "Aquasky vs. Masterblaster",
       "title": "Take it to the Floor",
-      "type": "DISC"
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=ofEwDEwr-vE",
+        "image": "https://i.discogs.com/mpB34PL_MpJRu5Iklrxsdf_xWWVrYcCU4zZAhtpZ774/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxNDU0/OS0xNzE1NDY2NDMy/LTQzNTUuanBlZw.jpeg",
+        "text": "New School Breaks classic",
+        "textFr": "Classique New School Breaks"
+      }
     },
     {
       "year": "2004",
       "decade": "2000s",
       "artist": "Dead Prez",
       "title": "Hell Yeah!",
-      "type": "VIDEO"
+      "type": "VIDEO",
+      "memory": {
+        "text": "Great music video",
+        "textFr": "Clip vidéo excellent",
+        "video": "https://www.youtube.com/watch?v=kGjSq4HqP9Y",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJv50Ym63XvPSB3xJm-f17fHVdpVJ74F-w4fFWGF7tbA&s=10"
+      }
     }
   ],
   "chapters": [
