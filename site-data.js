@@ -1110,6 +1110,19 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2001",
+      "decade": "2000s",
+      "artist": "Stanton Warriors",
+      "title": "Da Antidote",
+      "type": "DISC",
+      "memory": {
+        "text": "New School Breaks classic.",
+        "textFr": "Classique New School Breaks.",
+        "video": "https://www.youtube.com/watch?v=QUvDnpYpg90",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7GcjgbjaRDWdDJDUF-UlF9NEF4recTi1qdwsIcIbM5w&s=10"
+      }
+    },
+    {
       "year": "2002",
       "decade": "2000s",
       "artist": "Fatboy Slim",
