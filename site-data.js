@@ -1188,7 +1188,7 @@ window.RED_ANT_SITE_DATA = {
       "description": "Warped videos, big beat, breaks and UK club hybrids close the first volume — while pointing toward whatever comes next.",
       "descriptionFr": "Vidéos déformées, big beat, breaks et hybrides des clubs britanniques referment ce premier volume — tout en pointant vers la suite.",
       "startYear": 1998,
-      "endYear": 2100
+      "endYear": 2004
     },
     {
       "id": "chapter-7",
