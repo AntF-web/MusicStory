@@ -1260,6 +1260,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2005",
+      "decade": "2000s",
+      "artist": "M.I.A.",
+      "title": "Galang",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=DCL1RpgYxRM",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRplzIEUYBS6f7zWtgZlheZ8jqgieVDFKWSU6es5jUpYQ&s=10"
+      }
+    },
+    {
       "year": "2006",
       "decade": "2000s",
       "artist": "DMZ",
