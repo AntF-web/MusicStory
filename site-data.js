@@ -1210,6 +1210,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2004",
+      "decade": "2000s",
+      "artist": "Freestylers",
+      "title": "Push Up",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=VU01OK3EKvw",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf5T4cJVqRJRIDrWh835ssLThzVzU5Ee7uflZGKxgrOg&s=10"
+      }
+    },
+    {
       "year": "2005",
       "decade": "2000s",
       "artist": "Skream",
