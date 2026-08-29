@@ -1154,6 +1154,28 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2000",
+      "decade": "2000s",
+      "artist": "Wookie feat. Lain",
+      "title": "Battle",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=fonXU_H46pk",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2-dmuLPt_8RGx8I6v8-Auya6tto0EnSEMaAIPt4jP0Q&s=10"
+      }
+    },
+    {
+      "year": "2000",
+      "decade": "2000s",
+      "artist": "MJ Cole",
+      "title": "Sincere",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=DXCtYUtjDYU",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgHv0H2bpH2Ng-MwYDA90g2NtKbUEOacATxe4NutBh_w&s=10"
+      }
+    },
+    {
       "year": "2001",
       "decade": "2000s",
       "artist": "Jammin",
