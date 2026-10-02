@@ -1512,6 +1512,17 @@ window.RED_ANT_SITE_DATA = {
         "video": "https://www.youtube.com/watch?v=gFzE5e7xzA8",
         "image": "https://i.ytimg.com/vi/dnY5q-IYqfw/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AG-AoAC8AGKAgwIABABGGUgZShlMA8=&rs=AOn4CLCKYnbOJyTuQubMbtKZbPPLD5FNtA"
       }
+    },
+    {
+      "year": "2001",
+      "decade": "2000s",
+      "artist": "Roots Manuva",
+      "title": "Witness (1 Hope)",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=jXR_C6FDJag",
+        "image": "https://i1.sndcdn.com/artworks-000190720152-gobenq-t500x500.jpg"
+      }
     }
   ],
   "chapters": [
