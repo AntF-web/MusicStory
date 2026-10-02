@@ -1499,6 +1499,19 @@ window.RED_ANT_SITE_DATA = {
         "text": "New School Breaks anthem",
         "textFr": "New School Breaks anthem"
       }
+    },
+    {
+      "year": "1994",
+      "decade": "1990s",
+      "artist": "Renegade",
+      "title": "Terrorist",
+      "type": "DISC",
+      "note": "Original Bad Boy Sound",
+      "noteFr": "Original Bad Boy Sound",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=gFzE5e7xzA8",
+        "image": "https://i.ytimg.com/vi/dnY5q-IYqfw/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AG-AoAC8AGKAgwIABABGGUgZShlMA8=&rs=AOn4CLCKYnbOJyTuQubMbtKZbPPLD5FNtA"
+      }
     }
   ],
   "chapters": [
