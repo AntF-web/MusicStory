@@ -966,6 +966,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "1995",
+      "decade": "1990s",
+      "artist": "Mobb Deep",
+      "title": "Shook Ones Part II",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=yoYZf-lBF_U",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/%22Shook_Ones_%28Part_II%29%22_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      }
+    },
+    {
       "year": "1996",
       "decade": "1990s",
       "artist": "Tribe Of Issachar",
@@ -1247,6 +1258,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2000",
+      "decade": "2000s",
+      "artist": "Plump DJ's",
+      "title": "You Will Remember My Name",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=coY-atJBdlw",
+        "image": "https://f4.bcbits.com/img/a2158312423_10.jpg"
+      }
+    },
+    {
       "year": "2001",
       "decade": "2000s",
       "artist": "Jammin",
@@ -1501,6 +1523,30 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2006",
+      "decade": "2000s",
+      "artist": "Claude Von Stroke",
+      "title": "Who's Afraid Of Detroit",
+      "type": "DISC",
+      "memory": {
+        "image": "https://i1.sndcdn.com/artworks-000175528612-vn7xl0-t500x500.jpg",
+        "video": "https://www.youtube.com/watch?v=tFKqqBAKtms"
+      }
+    },
+    {
+      "year": "2007",
+      "decade": "2000s",
+      "artist": "Burial",
+      "title": "New moment",
+      "type": "DISC",
+      "memory": {
+        "text": "This Album Changed Everything",
+        "textFr": "L'album qui a tout changé",
+        "video": "https://www.youtube.com/watch?v=mHIZbGhxJ9k",
+        "image": "https://m.media-amazon.com/images/I/71oC+XshcuL._UF894,1000_QL80_.jpg"
+      }
+    },
+    {
       "year": "2008",
       "decade": "2000s",
       "artist": "Bassbin Twns",
@@ -1522,6 +1568,332 @@ window.RED_ANT_SITE_DATA = {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL3hP4CaNyYzLhuJL3TAAEMCVCZX3ky2MFn8OJwa5rZQ&s=10",
         "text": "New School Breaks anthem",
         "textFr": "New School Breaks anthem"
+      }
+    },
+    {
+      "year": "2010",
+      "decade": "2010s",
+      "artist": "James Blake",
+      "title": "There's A Limit To Your Love",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=oOT2-OTebx0",
+        "image": "https://images.genius.com/cdf96b37f169530c42a59b6d98124661.600x600x1.jpg"
+      }
+    },
+    {
+      "year": "2011",
+      "decade": "2010s",
+      "artist": "Jamie Woon",
+      "title": "Lady Luck",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=BvsfGhEqnXE",
+        "image": "https://i1.sndcdn.com/artworks-000026360750-acuq1w-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2011",
+      "decade": "2010s",
+      "artist": "Noir & Haze",
+      "title": "Around",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=7bMYhJ_UqnE",
+        "text": "Karma ",
+        "textFr": "Karma",
+        "image": "https://i1.sndcdn.com/artworks-000007993268-ymu1c5-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2012",
+      "decade": "2010s",
+      "artist": "Dizzee Rascal",
+      "title": "Bassline Junkie",
+      "type": "DISC",
+      "memory": {
+        "text": "I'm a Bassline Junkie",
+        "textFr": "I'm a Bassline Junkie",
+        "video": "https://www.youtube.com/watch?v=D1gl46hh3sQ",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Dizzee_Rascal_-_%22Bassline_Junkie%22_%28Promotional_single%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      }
+    },
+    {
+      "year": "2012",
+      "decade": "2010s",
+      "artist": "Julio Bashmore",
+      "title": "Au Seve",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=BnigNbYVQJE",
+        "image": "https://i1.sndcdn.com/artworks-000023482606-6v775m-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2012",
+      "decade": "2010s",
+      "artist": "Shadow Child",
+      "title": "23",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=E61XE9uqeew",
+        "image": "https://i1.sndcdn.com/artworks-000155379271-7jckae-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2012",
+      "decade": "2010s",
+      "artist": "XTC (Ruff Squad)",
+      "title": "Functions on the low",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=-uy0XIlnz4U",
+        "image": "https://f4.bcbits.com/img/a0229049053_16.jpg"
+      }
+    },
+    {
+      "year": "2012",
+      "decade": "2010s",
+      "artist": "Joy Orbison",
+      "title": "Sicko Cell",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=nmHWC4O1azk",
+        "image": "https://i1.sndcdn.com/artworks-000042922994-a3jsp1-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2012",
+      "decade": "2010s",
+      "artist": "Kendrick Lamar",
+      "title": "Money Trees",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Iy-dJwHVX84",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYq5BQp9fq140D20jSgryFvnwIW_TteWtt8Ek8x8SsOA&s=10"
+      }
+    },
+    {
+      "year": "2013",
+      "decade": "2010s",
+      "artist": "Bicep & Ejeca",
+      "title": "You (Ejeca's Piano Mix)",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=ME_EfJD9pEs",
+        "image": "https://i.ytimg.com/vi/ZnuWqUPtYtE/maxresdefault.jpg"
+      }
+    },
+    {
+      "year": "2014",
+      "decade": "2010s",
+      "artist": "Funkadelic feat. Moodyman",
+      "title": "Sloppy Cosmic",
+      "type": "DISC",
+      "memory": {
+        "text": "Classic Remix",
+        "textFr": "Remix d'un classique",
+        "video": "https://www.youtube.com/watch?v=-vTfloaph-M",
+        "image": "https://i1.sndcdn.com/artworks-000241779085-8dw733-t1080x1080.jpg"
+      }
+    },
+    {
+      "year": "2014",
+      "decade": "2010s",
+      "artist": "Skepta ft. JME",
+      "title": "That's Not Me",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=_xQKWnvtg6c",
+        "text": "Classic Grime ",
+        "textFr": "Classique Grime ",
+        "image": "https://i.ytimg.com/vi/dyONbqggasY/maxresdefault.jpg"
+      }
+    },
+    {
+      "year": "2015",
+      "decade": "2010s",
+      "artist": "Section Boyz",
+      "title": "Lock Arff",
+      "type": "DISC",
+      "memory": {
+        "text": "C-19 Lock Off - Drill Time",
+        "textFr": "Confinement avant la lettre - Drill Music",
+        "video": "https://www.youtube.com/watch?v=nISWPU50HLc",
+        "image": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/86/Section_Boyz_Don%27t_Panic.jpg/250px-Section_Boyz_Don%27t_Panic.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+      }
+    },
+    {
+      "year": "2015",
+      "decade": "2010s",
+      "artist": "Jamie XX",
+      "title": "Gosh",
+      "type": "DISC",
+      "memory": {
+        "text": "Beautiful music video",
+        "textFr": "Clip Video de Costa Gavras JR",
+        "video": "https://www.youtube.com/watch?v=hTGJfRPLe08",
+        "image": "https://magazineantidote.com/wp-content/uploads/2016/07/antidote-jamie-xx-romain-gavras-gosh-clip-paris-chine.jpg"
+      }
+    },
+    {
+      "year": "2018",
+      "decade": "2010s",
+      "artist": "Childish Gambino",
+      "title": "This Is America",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=VYOjWnS4cMY",
+        "image": "https://i1.sndcdn.com/artworks-12HG0gEER0n956RG-KvRfOQ-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2018",
+      "decade": "2010s",
+      "artist": "Asap Rocky",
+      "title": "Praise The Lord (Da Shine)",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Kbj2Zss-5GY",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/b3/Praise_The_Lord_Da_Shine.jpeg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+      }
+    },
+    {
+      "year": "2018",
+      "decade": "2010s",
+      "artist": "Mura Masa",
+      "title": "Move Me",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=Tbz6xQkewo4",
+        "image": "https://images.squarespace-cdn.com/content/v1/5a8e33abcd39c3de866b7211/1556033611917-SSI5NL0EHI2UEY5QJUFR/MoveMeMuraMasaFRNDYLMRN.jpg"
+      }
+    },
+    {
+      "year": "2019",
+      "decade": "2010s",
+      "artist": "Stormzy",
+      "title": "Vossi Bop",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=9ClYy0MxsU0",
+        "image": "https://directorsnotes.com/wp-content/uploads/2019/04/vossi_bop_2.jpg"
+      }
+    },
+    {
+      "year": "2019",
+      "decade": "2010s",
+      "artist": "Sam Virji ",
+      "title": "Shapes",
+      "type": "DISC",
+      "memory": {
+        "image": "https://f4.bcbits.com/img/a3507353180_16.jpg",
+        "video": "https://www.youtube.com/watch?v=-tz_VGvvhyg",
+        "text": "New School UK Garage",
+        "textFr": "New School UK Garage"
+      }
+    },
+    {
+      "year": "2019",
+      "decade": "2010s",
+      "artist": "AJ Tracey",
+      "title": "Ladbroke Grove",
+      "type": "DISC",
+      "memory": {
+        "text": "New School UK Garage",
+        "textFr": "New School UK Garage",
+        "video": "https://www.youtube.com/watch?v=r_Q40kOt9X0",
+        "image": "https://i.ytimg.com/vi/r_Q40kOt9X0/maxresdefault.jpg"
+      }
+    },
+    {
+      "year": "2020",
+      "decade": "2020s",
+      "artist": "Greentea Peng",
+      "title": "Revolution",
+      "type": "DISC",
+      "memory": {
+        "image": "https://cdn-images.dzcdn.net/images/cover/21f9da74e49b56e62ee266312e733436/0x1900-000000-80-0-0.jpg",
+        "video": "https://www.youtube.com/watch?v=wxqiiSqm3jE"
+      }
+    },
+    {
+      "year": "2021",
+      "decade": "2020s",
+      "artist": "Pa Salieu feat Slowthai",
+      "title": "Glidin' ",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=o6Jg1jw9X7g",
+        "image": "https://i1.sndcdn.com/artworks-r7JHehppPyTv-0-t500x500.jpg"
+      }
+    },
+    {
+      "year": "2021",
+      "decade": "2020s",
+      "artist": "Central Cee",
+      "title": "Loading",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=1Ok-i3uGXkM",
+        "image": "https://i.scdn.co/image/ab67616d0000b27349bddfb3b0d8f94ae2e7043a"
+      }
+    },
+    {
+      "year": "2022",
+      "decade": "2020s",
+      "artist": "Original Koffee",
+      "title": "Toast",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=p8HoEvDh70Y",
+        "image": "https://i.scdn.co/image/ab67616d0000b273147e0b14ab0b9151909ea592"
+      }
+    },
+    {
+      "year": "2022",
+      "decade": "2020s",
+      "artist": "Little Simz",
+      "title": "Gorilla",
+      "type": "DISC",
+      "memory": {
+        "image": "https://i1.sndcdn.com/artworks-63SS18Jtv7Qh-0-t500x500.jpg",
+        "video": "https://www.youtube.com/watch?v=K7xzmkpwNoA"
+      }
+    },
+    {
+      "year": "2022",
+      "decade": "2020s",
+      "artist": "Doechii",
+      "title": "Crazy",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=0aQ9Q0hRTwY",
+        "image": "https://i.scdn.co/image/ab67616d0000b273d2295706e5a306b43fa58e60"
+      }
+    },
+    {
+      "year": "2022",
+      "decade": "2020s",
+      "artist": "Ren",
+      "title": "Hi Ren",
+      "type": "DISC",
+      "memory": {
+        "text": "Genius",
+        "textFr": "Genius",
+        "video": "https://www.youtube.com/watch?v=s_nc1IVoMxc",
+        "image": "https://i.ytimg.com/vi/s_nc1IVoMxc/sddefault.jpg?v=63a30d28"
+      }
+    },
+    {
+      "year": "2023",
+      "decade": "2020s",
+      "artist": "Doja Cat",
+      "title": "Paint The Town Red ",
+      "type": "DISC",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=m4_9TFeMfJE",
+        "image": "https://i.vimeocdn.com/video/1710868712-d2845e1d4c98a360d14c6f9afe0f64b6ebfca67725dfccef94d791b875ca1c6c-d?f=webp&region=us"
       }
     }
   ],
@@ -1602,6 +1974,17 @@ window.RED_ANT_SITE_DATA = {
       "descriptionFr": "Croydon envahit le monde",
       "startYear": 2005,
       "endYear": 2010
+    },
+    {
+      "id": "chapter-8",
+      "number": "08",
+      "era": "2011—2020",
+      "title": "Party Is Still On",
+      "titleFr": "La Fête Continue",
+      "description": "Don't Stop",
+      "descriptionFr": "...et ne s'arrête jamais",
+      "startYear": 2011,
+      "endYear": 2020
     }
   ],
   "translations": {
