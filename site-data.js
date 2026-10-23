@@ -1346,7 +1346,9 @@ window.RED_ANT_SITE_DATA = {
       "type": "VIDEO",
       "memory": {
         "video": "https://www.youtube.com/watch?v=RQthFDpYCys",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqBskCIecb7WoepU5DjjEyHLCGlRLAPULqzNUuB0Quw&s=10"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqBskCIecb7WoepU5DjjEyHLCGlRLAPULqzNUuB0Quw&s=10",
+        "text": "We've got 5 million ways to kill a CEO\nSlap him up and shake him up and then you know\nLet him off the flo' then bait him with the dough\nYou can do it funk or do it disco, why'know how this go",
+        "textFr": "We've got 5 million ways to kill a CEO\nSlap him up and shake him up and then you know\nLet him off the flo' then bait him with the dough\nYou can do it funk or do it disco, why'know how this go"
       }
     },
     {
