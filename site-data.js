@@ -1339,6 +1339,17 @@ window.RED_ANT_SITE_DATA = {
       }
     },
     {
+      "year": "2001",
+      "decade": "2000s",
+      "artist": "The Coup",
+      "title": "5 Million Ways to Kill a C.E.O.",
+      "type": "VIDEO",
+      "memory": {
+        "video": "https://www.youtube.com/watch?v=RQthFDpYCys",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEqBskCIecb7WoepU5DjjEyHLCGlRLAPULqzNUuB0Quw&s=10"
+      }
+    },
+    {
       "year": "2002",
       "decade": "2000s",
       "artist": "Fatboy Slim",
